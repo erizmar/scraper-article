@@ -14,5 +14,5 @@
 
     $conn->close();
 
-    header("location:index.html")
+    header("location:index.php")
 ?>

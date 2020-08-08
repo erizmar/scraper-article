@@ -4,7 +4,7 @@
     $sql = "SELECT id, tgturl FROM list";
     $result = $conn->query($sql);
 
-    echo "<a href='index.html'>Home</a> <br>";
+    echo "<a href='index.php'>Home</a> <br>";
 
     if ($result->num_rows > 0) {
         // output data of each row
