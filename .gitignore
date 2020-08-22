@@ -1,2 +1,6 @@
 /download
 /image
+/__pycache__
+dtm.csv
+dtm.pkl
+data_clean.pkl
