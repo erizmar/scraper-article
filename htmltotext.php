@@ -5,12 +5,12 @@
 
     $stripped_path = 'download/stripped';
     if (!file_exists($stripped_path)) {
-        mkdir($stripped_path);
+        mkdir($stripped_path, 0777, true);
     }
 
     $text_path = 'download/text';
     if (!file_exists($text_path)) {
-        mkdir($text_path);
+        mkdir($text_path, 0777, true);
     }
 
     $sql = "SELECT id, tgturl FROM links";
@@ -24,13 +24,10 @@
             
             $dhtml = fread($doc,filesize($stripped_path.DIRECTORY_SEPARATOR."$counter-stripped.html"));
             
-            $pattern1 = "/<div>|<\/div>|<h2>|<\/h2>/";
-            $regex1 = preg_replace($pattern1, "\r\n", $dhtml);
-            
-            $pattern2 = "/\s+/";
-            $regex2 = preg_replace($pattern2, " ", $regex1);
+            $regex = preg_replace("/<div>|<\/div>|<h2>|<\/h2>/", "\r\n", $dhtml);
+            $regex = preg_replace("/\s+/", " ", $regex);
 
-            $chtml = strip_tags($regex2);
+            $chtml = strip_tags($regex);
 
             fwrite($sdoc, $chtml);
 

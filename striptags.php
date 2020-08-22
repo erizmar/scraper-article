@@ -9,12 +9,12 @@
 
     $html_path = 'download/html';
     if (!file_exists($html_path)) {
-        mkdir($html_path);
+        mkdir($html_path, 0777, true);
     }
 
     $stripped_path = 'download/stripped';
     if (!file_exists($stripped_path)) {
-        mkdir($stripped_path);
+        mkdir($stripped_path, 0777, true);
     }
 
     $sql = "SELECT id, tgturl FROM links";

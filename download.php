@@ -5,7 +5,7 @@
     
     $folder_path = 'download/html';
     if (!file_exists($folder_path)) {
-        mkdir($folder_path);
+        mkdir($folder_path, 0777, true);
     }
 
     $sql = "SELECT tgturl FROM links";

@@ -27,7 +27,8 @@ list_stopword.update(['jl', 'rp', 'salah', 'source', 'image', 'credit', 'by'])
 
 # adding all docs to dictionary
 while count < total_doc+1:
-    with open (path+str(count)+"-plaintext.txt", "r") as myfile:
+    print ('opening doc ' + str(count))
+    with open (path+str(count)+"-plaintext.txt", "r", errors="ignore") as myfile:
         text = myfile.read()
 
     # cleaning the file
