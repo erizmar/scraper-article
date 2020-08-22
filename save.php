@@ -3,7 +3,7 @@
     
     $url = $_POST['surl'];
 
-    $sql = "INSERT INTO list (tgturl)
+    $sql = "INSERT INTO links (tgturl)
     VALUES ('$url')";
 
     if ($conn->query($sql) === TRUE) {

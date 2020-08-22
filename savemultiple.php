@@ -8,7 +8,7 @@
     foreach ($url_array as $key) {
         $key = preg_replace('/\s+/', '', $key);
 
-        $sql = "INSERT INTO list (tgturl)
+        $sql = "INSERT INTO links (tgturl)
         VALUES ('$key')";
 
         if ($conn->query($sql) === TRUE) {

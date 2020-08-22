@@ -3,7 +3,7 @@
 
     $id = $_GET['id'];
 
-    $sql = "DELETE FROM list WHERE id=$id";
+    $sql = "DELETE FROM links WHERE id=$id";
     $result = $conn->query($sql);
 
     $conn->close();

@@ -3,12 +3,12 @@
     
     $counter = 1;
     
-    $folderPath = 'download';
-    if (!file_exists($folderPath)) {
-        mkdir($folderPath);
+    $folder_path = 'download/html';
+    if (!file_exists($folder_path)) {
+        mkdir($folder_path);
     }
 
-    $sql = "SELECT tgturl FROM list";
+    $sql = "SELECT tgturl FROM links";
     $result = $conn->query($sql);
 
     if ($result->num_rows > 0) {
@@ -25,7 +25,7 @@
             $filename = "$counter.html";
 
             //Save the file
-            $fh = fopen($folderPath.DIRECTORY_SEPARATOR.$filename, "w");
+            $fh = fopen($folder_path.DIRECTORY_SEPARATOR.$filename, "w");
             fwrite($fh, $data);
             fclose($fh);
 

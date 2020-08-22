@@ -1,7 +1,7 @@
 <?php
     include "connection.php";
 
-    $sql = "SELECT id, tgturl FROM list";
+    $sql = "SELECT id, tgturl FROM links";
     $result = $conn->query($sql);
 
     echo "<a href='index.php'>Home</a> <br>";

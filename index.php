@@ -7,7 +7,8 @@
         <h1>HTML Downloader</h1>
         <a href="show.php">Show All</a>
         <a href="download.php">Download All</a>
-        <a href="striptags.php">Strip All</a> <br><br>
+        <a href="striptags.php">Strip All</a>
+        <a href="htmltotext.php">Plain All</a> <br><br>
         <fieldset>
             <form method="post" action="save.php">
                 <label for="surl">URL: </label>
