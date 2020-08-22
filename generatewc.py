@@ -3,6 +3,7 @@ import matplotlib.pyplot as plt
 import re
 import string
 import os, os.path
+import pickle
 
 from nltk.corpus import stopwords
 from wordcloud import WordCloud
@@ -13,11 +14,9 @@ cpath = os.path.exists(path)
 if cpath == False:
     os.mkdir(path)
 
-# init stopwords
-list_stopword = set(stopwords.words('indonesian'))
-
-# add custom stopwords
-list_stopword.update(['jl', 'rp', 'salah', 'source', 'image', 'credit', 'by', 'surabaya', 'wisata', 'kota', 'jawa', 'timur', 'lokasi'])
+# load stopwords
+with open('stopwords.pkl', 'rb') as f:
+    list_stopwords = pickle.load(f)
 
 # load document term matrix
 data = pd.read_pickle('dtm.pkl')
@@ -27,7 +26,7 @@ data = data.transpose()
 data_clean = pd.read_pickle('data_clean.pkl')
 
 # load tourism object
-tourism_object = ['aiola eatery', 'tugu pahlawan', 'pantai kenjeran', 'surabaya']
+tourism_object = ['aiola eatery', 'tugu pahlawan', 'pantai kenjeran', 'surabaya', 'arca joko dolog', 'cakcuk cafe surabaya', 'delta plaza', 'taman bungkul']
 
 # make tourism object document dictionary
 to_dict = {}
@@ -69,8 +68,7 @@ data_to = pd.DataFrame.from_dict(to_dict, orient='index')
 data_to
 
 # wordcloud
-wc = WordCloud(stopwords=list_stopword, background_color='white', colormap='Dark2',
-               max_font_size=150, random_state=42)
+wc = WordCloud(stopwords=list_stopwords, background_color='white', colormap='Dark2', width=1600, height=800)
 
 for x in tourism_object:
     # check if tourism object exist in document term matrix
@@ -87,9 +85,12 @@ for x in tourism_object:
     # generate wordcloud
     wc.generate(wc_string)
 
-    # export to png
-    wc.to_file(path + x + '.png')
+    print ('wordcloud for ' + x + ' successfully created!')
+
+    plt.figure( figsize=(20,10))
     plt.imshow(wc, interpolation='bilinear')
     plt.axis('off')
     plt.title(x)
+    # export to png
+    plt.savefig(path + x + '.png')
     plt.show()

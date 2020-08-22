@@ -19,14 +19,14 @@
         <fieldset>
             <form method="post" action="savemultiple.php">
                 <label for="murl">URL: </label>
-                <textarea id="murl" name="murl" rows="4" cols="50"></textarea>
+                <textarea id="murl" name="murl" rows="4" cols="50" required></textarea>
                 <button type="submit" value="save">Save</button>
             </form>
         </fieldset> <br>
         <fieldset>
             <form method="post" action="stopwords.php">
                 <label for="stopwords">Stopwords: </label>
-                <input type="text" id="stopwords" name="stopwords" required>
+                <textarea id="stopwords" name="stopwords" rows="4" cols="50" required></textarea>
                 <button type="submit" value="save">Save</button>
             </form>
         </fieldset> <br>

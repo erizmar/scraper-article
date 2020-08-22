@@ -2,6 +2,7 @@
     $servername = "localhost";
     $username = "root";
     $password = "";
+    // $password = "yolomysql";
     $dbname = "pagedownload";
 
     // Create connection

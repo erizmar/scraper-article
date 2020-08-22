@@ -1,9 +1,9 @@
 import pandas as pd
-import nltk
 import nltk.corpus
 import re
 import string
 import os, os.path
+import pickle
 
 from nltk.corpus import stopwords
 from sklearn.feature_extraction.text import CountVectorizer
@@ -20,10 +20,16 @@ count = 1
 data_dict = {}
 
 # init stopwords
-list_stopword = set(stopwords.words('indonesian'))
+list_stopwords = set(stopwords.words('indonesian'))
 
 # add custom stopwords
-list_stopword.update(['jl', 'rp', 'salah', 'source', 'image', 'credit', 'by'])
+list_stopwords.update(['jl', 'rp', 'salah', 'source', 'image', 'credit', 'by', 'surabaya', 'wisata', 'kota', 'jawa', 'timur', 'lokasi'])
+# with open('stopwordsdb.pkl', 'rb') as f:
+#     db_stopwords = pickle.load(f)
+#     list_stopwords.update(db_stopwords)
+
+with open('stopwords.pkl', 'wb') as f:
+    pickle.dump(list_stopwords, f)
 
 # adding all docs to dictionary
 while count < total_doc+1:
@@ -48,22 +54,24 @@ data_clean = pd.DataFrame.from_dict(data_dict, orient='index')
 data_clean.columns = ['text']
 
 # init count vectorizer using custom stopwords and bigrams
-cv = CountVectorizer(stop_words=list_stopword, ngram_range=(1, 2))
+cv = CountVectorizer(stop_words=list_stopwords, ngram_range=(1, 2))
 
 data_cv = cv.fit_transform(data_clean.text)
 data_dtm = pd.DataFrame(data_cv.toarray(), columns=cv.get_feature_names())
 data_dtm.index = data_clean.index
 
 # dump to csv
-data_dtm.to_csv("dtm.csv")
+# data_dtm.to_csv("dtm.csv")
 
 # dump to pickle
 data_dtm.to_pickle("dtm.pkl")
 data_clean.to_pickle("data_clean.pkl")
 data_dtm
 
+print ("document term matrix successfully created!")
+
 # # init tf-idf using custom stopwords and bigrams
-# tfidf = TfidfVectorizer(stop_words=list_stopword, ngram_range=(1, 2))
+# tfidf = TfidfVectorizer(stop_words=list_stopwords, ngram_range=(1, 2))
 
 # data_dtm = tfidf.fit_transform(data_clean.text)
 # data_dtm = pd.DataFrame(data_dtm.toarray(), columns=tfidf.get_feature_names())
