@@ -1,11 +1,11 @@
 <?php
     include "connection.php";
 
-    $stop = $_POST['stopwords'];
+    $val = $_POST['stopwords'];
 
-    $stop_array = explode("\n", $stop);
+    $val_array = explode("\n", $val);
 
-    foreach ($stop_array as $key) {
+    foreach ($val_array as $key) {
         $key = preg_replace('/\s+/', '', $key);
 
         $sql = "INSERT INTO stopwords (word)

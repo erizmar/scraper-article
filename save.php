@@ -1,10 +1,10 @@
 <?php
     include "connection.php";
     
-    $url = $_POST['surl'];
+    $val = $_POST['surl'];
 
     $sql = "INSERT INTO links (tgturl)
-    VALUES ('$url')";
+    VALUES ('$val')";
 
     if ($conn->query($sql) === TRUE) {
         echo "New record created successfully";

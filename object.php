@@ -1,14 +1,14 @@
 <?php
     include "connection.php";
 
-    $val = $_POST['murl'];
+    $val = $_POST['object'];
 
     $val_array = explode("\n", $val);
 
     foreach ($val_array as $key) {
-        $key = preg_replace('/\s+/', '', $key);
+        $key = preg_replace('/\s$/', '', $key);
 
-        $sql = "INSERT INTO links (tgturl)
+        $sql = "INSERT INTO tourism_object (name)
         VALUES ('$key')";
 
         if ($conn->query($sql) === TRUE) {
