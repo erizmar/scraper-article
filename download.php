@@ -3,12 +3,15 @@
     
     $counter = 1;
     
-    $folder_path = 'download/html';
-    if (!file_exists($folder_path)) {
-        mkdir($folder_path, 0777, true);
+    // set script run time unlimited
+    set_time_limit(0);
+
+    $path = 'download/html';
+    if (!file_exists($path)) {
+        mkdir($path, 0777, true);
     }
 
-    $sql = "SELECT tgturl FROM links";
+    $sql = "SELECT id, tgturl FROM links";
     $result = $conn->query($sql);
 
     if ($result->num_rows > 0) {
@@ -19,13 +22,13 @@
             
             //Get the file
             $data = file_get_contents($url);
-            echo "URL: ".$url." downloaded<br>";
+            echo "ID: ".$row["id"]." URL: ".$url." downloaded<br>";
 
             //Save as?
             $filename = "$counter.html";
 
             //Save the file
-            $fh = fopen($folder_path.DIRECTORY_SEPARATOR.$filename, "w");
+            $fh = fopen($path.DIRECTORY_SEPARATOR.$filename, "w");
             fwrite($fh, $data);
             fclose($fh);
 

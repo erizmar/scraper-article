@@ -2,5 +2,6 @@
 /download
 /image
 /__pycache__
+/vendor
 *.csv
 *.pkl

@@ -6,6 +6,7 @@
     <body>
         <h1>HTML Downloader</h1>
         <a href="show.php">Show All</a>
+        <a href="serpjson.php">Add From JSON</a>
         <a href="download.php">Download All</a>
         <a href="striptags.php">Strip All</a>
         <a href="htmltotext.php">Plain All</a> <br><br>

@@ -23,7 +23,7 @@ data_dict = {}
 list_stopwords = set(stopwords.words('indonesian'))
 
 # add custom stopwords
-list_stopwords.update(['jl', 'rp', 'salah', 'source', 'image', 'credit', 'by', 'surabaya', 'wisata', 'kota', 'jawa', 'timur', 'lokasi'])
+list_stopwords.update(['jl', 'rp', 'salah', 'source', 'image', 'credit', 'by', 'surabaya', 'wisata', 'kota', 'jawa', 'timur', 'lokasi', 'amp'])
 # with open('stopwordsdb.pkl', 'rb') as f:
 #     db_stopwords = pickle.load(f)
 #     list_stopwords.update(db_stopwords)
@@ -32,7 +32,7 @@ with open('stopwords.pkl', 'wb') as f:
     pickle.dump(list_stopwords, f)
 
 # adding all docs to dictionary
-while count < total_doc+1:
+while count <= total_doc:
     print ('opening doc ' + str(count))
     with open (path+str(count)+"-plaintext.txt", "r", errors="ignore") as myfile:
         text = myfile.read()

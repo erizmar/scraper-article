@@ -1,0 +1,5 @@
+{
+    "require": {
+        "serpwow/google-search-results": "^0.2.5"
+    }
+}

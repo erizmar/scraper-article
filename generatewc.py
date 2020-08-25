@@ -26,7 +26,7 @@ data = data.transpose()
 data_clean = pd.read_pickle('data_clean.pkl')
 
 # load tourism object
-tourism_object = ['aiola eatery', 'tugu pahlawan', 'pantai kenjeran', 'surabaya', 'arca joko dolog', 'cakcuk cafe surabaya', 'delta plaza', 'taman bungkul']
+tourism_object = ['aiola eatery', 'tugu pahlawan', 'pantai kenjeran', 'arca joko dolog', 'cakcuk cafe', 'delta plaza', 'taman bungkul']
 
 # make tourism object document dictionary
 to_dict = {}
