@@ -65,6 +65,7 @@ for x in tourism_object:
 
 # make dictionary into data frame
 data_to = pd.DataFrame.from_dict(to_dict, orient='index')
+data_to.to_pickle('object_file_list.pkl')
 data_to
 
 # wordcloud

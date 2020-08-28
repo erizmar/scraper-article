@@ -1,53 +1,49 @@
 <?php
 include "connection.php";
 
-$path = 'download/json';
-    if (!file_exists($path)) {
-        mkdir($path, 0777, true);
+$path = 'download/testjson';
+// $path = 'download/json';
+    if (!is_dir($path)) {
+        die;
     }
 
-// count json file
-$fi = new FilesystemIterator("download/json", FilesystemIterator::SKIP_DOTS);
-$file_count = iterator_count($fi);
+$files = scandir($path);
 
-$counter = 1;
+foreach ($files as $val) {
+    if ($val != "." && $val != "..") {
 
-while ($counter <= $file_count) {
-    echo "================================================$counter.json================================================<br>";
-    
-    $file = fopen($path.DIRECTORY_SEPARATOR."$counter-results.json", 'r') or die("Unable to open file!");
-    $json = fread($file,filesize($path.DIRECTORY_SEPARATOR."$counter-results.json"));
-    $result = json_decode($json);
+        $file = fopen($path.DIRECTORY_SEPARATOR.$val, 'r') or die("Unable to open file!");
+        $json = fread($file,filesize($path.DIRECTORY_SEPARATOR.$val));
+        $result = json_decode($json);
 
-    $x = 1;
-    foreach ($result->organic_results as $val) {
-        $link = $val->link;
-        $link = preg_replace('/.html/', '', $link);
-        
-        echo "$x $link<br>";
-        $x++;
+        foreach ($result->organic_results as $key) {
+            // removing any .html links
+            $link = $key->link;
+            $link = preg_replace('/.html/', '', $link);
+            
+            echo "$link<br>";
 
-        // search duplicate
-        $sql = "SELECT id, tgturl FROM links WHERE tgturl='$link'";
-        $sql_result = $conn->query($sql);
-        
-        if ($sql_result->num_rows > 0) {
-            echo "Duplicate links!<br>";
-            continue;
-        } else {
-            $sql = "INSERT INTO links (tgturl)
-            VALUES ('$link')"; // from what json
-
-            if ($conn->query($sql) === TRUE) {
-                echo "New record created successfully<br>";
+            // search duplicate
+            $sql = "SELECT id, tgturl FROM links WHERE tgturl='$link'";
+            $sql_result = $conn->query($sql);
+            
+            if ($sql_result->num_rows > 0) {
+                echo "Duplicate link!<br>";
+                continue;
             } else {
-                echo "Error: " . $sql . "<br>" . $conn->error;
+                $sql = "INSERT INTO links (tgturl, jsonfile)
+                VALUES ('$link', '$val')";
+
+                if ($conn->query($sql) === TRUE) {
+                    echo "New record created successfully<br>";
+                } else {
+                    echo "Error: " . $sql . "<br>" . $conn->error;
+                }
             }
         }
+
+        fclose($file);
     }
-    $x = 1;
-    fclose($file);
-    $counter++;
 }
 
 $conn->close();

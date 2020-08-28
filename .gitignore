@@ -5,3 +5,5 @@
 /vendor
 *.csv
 *.pkl
+
+!/download/text
