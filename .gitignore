@@ -1,9 +1,9 @@
-/archive
-/download
-/image
-/__pycache__
-/vendor
+__pycache__
+archive
+download/*
+!download/text
+image
+vendor
 *.csv
 *.pkl
 
-!/download/text
