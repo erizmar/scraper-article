@@ -23,7 +23,8 @@ data = pd.read_pickle('dtm.pkl')
 data = data.transpose()
 
 # load cleaned raw string
-data_clean = pd.read_pickle('data_clean.pkl')
+# data_clean = pd.read_pickle('data_clean.pkl')
+data_clean = pd.read_pickle('filtered.pkl')
 
 # load tourism object
 tourism_object = ['aiola eatery', 'tugu pahlawan', 'pantai kenjeran', 'arca joko dolog', 'cakcuk cafe', 'delta plaza', 'taman bungkul']

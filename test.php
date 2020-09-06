@@ -1,19 +1,12 @@
 <?php
+$prefix = ["wisata hits", "wisata instagramable", "wisata terbaik"];
+$suffix = ["surabaya", "terbaik"];
 
-$path = 'download/testjson';
-    if (!is_dir($path)) {
-        die;
-    }
-
-$files = scandir($path);
-
-$time = time();
-
-// print_r($files);
-
-foreach ($files as $val) {
-    if ($val != "." && $val != "..") {
-        echo "$val<br>";
+foreach ($prefix as $val1) {
+    foreach ($suffix as $val2) {
+        $string = "$val1 $val2";
+        echo $string;
+        echo "<br>";
     }
 }
 ?>

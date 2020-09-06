@@ -41,8 +41,8 @@ while count <= total_doc:
     text = text.lower()
     text = re.sub('\[.*?\]', '', text)
     text = re.sub('[%s]' % re.escape(string.punctuation), '', text)
-    text = re.sub('\w*\d\w*', '', text)
-    text = re.sub('[‘’“”…]', '', text)
+    text = re.sub('\d', '', text)
+    text = re.sub('[‘’“”…ƒâãšÿž€¢¦œ²³º¼¾]', '', text)
     text = re.sub('\n', '', text)
     
     data_dict[count] = text
@@ -61,14 +61,14 @@ data_dtm = pd.DataFrame(data_cv.toarray(), columns=cv.get_feature_names())
 data_dtm.index = data_clean.index
 
 # dump to csv
-# data_dtm.to_csv("dtm.csv")
+data_dtm.to_csv('dtm.csv')
 
 # dump to pickle
-data_dtm.to_pickle("dtm.pkl")
-data_clean.to_pickle("data_clean.pkl")
+data_dtm.to_pickle('dtm.pkl')
+data_clean.to_pickle('data_clean.pkl')
 data_dtm
 
-print ("document term matrix successfully created!")
+print ('document term matrix successfully created!')
 
 # # init tf-idf using custom stopwords and bigrams
 # tfidf = TfidfVectorizer(stop_words=list_stopwords, ngram_range=(1, 2))

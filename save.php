@@ -1,18 +1,18 @@
 <?php
-    include "connection.php";
-    
-    $val = $_POST['surl'];
+include "connection.php";
 
-    $sql = "INSERT INTO links (tgturl)
-    VALUES ('$val')";
+$val = $_POST['surl'];
 
-    if ($conn->query($sql) === TRUE) {
-        echo "New record created successfully";
-    } else {
-        echo "Error: " . $sql . "<br>" . $conn->error;
-    }
+$sql = "INSERT INTO links (tgturl)
+VALUES ('$val')";
 
-    $conn->close();
+if ($conn->query($sql) === TRUE) {
+    echo "New record created successfully";
+} else {
+    echo "Error: " . $sql . "<br>" . $conn->error;
+}
 
-    header("location:index.php")
+$conn->close();
+
+header("location:index.php")
 ?>

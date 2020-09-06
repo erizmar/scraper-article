@@ -1,30 +1,24 @@
-import mysql.connector
-import datetime
+import re
+import pandas as pd
 
-mydb = mysql.connector.connect(
-    host="localhost",
-    user="root",
-    password="",
-    # password="yolomysql",
-    database="pagedownload"
-)
+data_clean = pd.read_pickle('data_clean.pkl')
+data_tagged = pd.read_pickle('tagged.pkl')
 
-mycursor = mydb.cursor()
-mycursor.execute("SELECT pubdate FROM links")
-myresult = mycursor.fetchall()
+### Extracting POS tags ###
+## in every sentence by index ##
+for i in data_tagged.index:
+    ## for every words ith sentence ##
+    for j in data_clean.text[i].split():
+        ## replace that word from ith sentence in f_pos ##
+        data_tagged.text[i] = str(data_tagged.text[i]).replace(j,"",1)
 
-pubdate = set()
+    ## Removing < > symbols ##
+    for j in  ['<','>']:
+        data_tagged.text[i] = str(data_tagged.text[i]).replace(j,"")
 
-for y in myresult:
-    if y[0] == None:
-        continue
-    date = y[0]
-    date = date[0:10]
-    # pubdate.update([date])
-    
-    format = '%Y-%m-%d'
-    if date != format:
-        continue
+        ## removing redundant spaces ##
+        # data_tagged.text[i] = re.sub(' +', ' ', str(data_tagged.text[i]))
+        # data_tagged.text[i] = str(data_tagged.text[i]).lstrip()
 
-    date = datetime.datetime.strptime(date, format)
-    print (str(date))
+data_tagged.to_pickle('tag_only.pkl')
+data_tagged

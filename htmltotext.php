@@ -1,45 +1,57 @@
 <?php
-    include "connection.php";
-    
-    $counter = 1;
+require "vendor/autoload.php";
 
-    $stripped_path = 'download/stripped';
-    if (!file_exists($stripped_path)) {
-        mkdir($stripped_path, 0777, true);
-    }
+$stripped_path = 'download/stripped';
+if (!is_dir($stripped_path)) {
+    die;
+}
 
-    $text_path = 'download/text';
-    if (!file_exists($text_path)) {
-        mkdir($text_path, 0777, true);
-    }
+$text_path = 'download/text';
+if (!file_exists($text_path)) {
+    mkdir($text_path, 0777, true);
+}
 
-    $sql = "SELECT id, tgturl FROM links";
-    $result = $conn->query($sql);
-    
-    if ($result->num_rows > 0) {
-        // output data of each row
-        while($row = $result->fetch_assoc()) {
-            $doc = fopen($stripped_path.DIRECTORY_SEPARATOR."$counter-stripped.html", "r") or die("Unable to open file!");
-            $sdoc = fopen($text_path.DIRECTORY_SEPARATOR."$counter-plaintext.txt", "w");
-            
-            $dhtml = fread($doc,filesize($stripped_path.DIRECTORY_SEPARATOR."$counter-stripped.html"));
-            
-            $regex = preg_replace("/<div>|<\/div>|<h2>|<\/h2>/", "\r\n", $dhtml);
-            $regex = preg_replace("/\s+/", " ", $regex);
+$files = scandir($stripped_path);
 
-            $chtml = strip_tags($regex);
+foreach ($files as $val) {
+    if ($val != "." && $val != "..") {
+        $file = fopen($stripped_path.DIRECTORY_SEPARATOR.$val, 'r') or die("Unable to open file!");
+        $html = fread($file,filesize($stripped_path.DIRECTORY_SEPARATOR.$val));
 
-            fwrite($sdoc, $chtml);
+        // Method 1
+        $dom = new DOMDocument();
+        $dom->loadHTML($html);
 
-            fclose($doc);
-            fclose($sdoc);
+        $giant_string = "";
 
-            echo "URL: ".$row["tgturl"]." plained<br>";
-            
-            $counter++;
+        foreach($dom->getElementsByTagName('p') as $paragraph) {
+            $giant_string .= $paragraph->textContent."\n";
         }
-    } else {
-        echo "nothing to convert";
+
+        $id = preg_replace('/-stripped.html/', '', $val);
+
+        $text_file = fopen($text_path.DIRECTORY_SEPARATOR."$id-plaintext.txt", "w");
+        fwrite($text_file, $giant_string);
+
+        // Method 2
+        // $text = preg_replace('#<script(.*?)>(.*?)</script>#isu', '', $html);
+
+        // $options = array(
+        //     'ignore_errors' => true,
+        //     'drop_links' => true,
+        //     );
+        
+        // $text = \Soundasleep\Html2Text::convert($text, $options);
+
+        // $id = preg_replace('/-stripped.html/', '', $val);
+
+        // $text_file = fopen($text_path.DIRECTORY_SEPARATOR."$id-plaintext.txt", "w");
+        // fwrite($text_file, $text);
+
+        echo "ID: $id plained<br>";
+
+        fclose($file);
+        fclose($text_file);
     }
-    $conn->close();
+}
 ?>

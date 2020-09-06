@@ -1,14 +1,14 @@
 <?php
-    include "connection.php";
+include "connection.php";
 
-    $id = $_GET['id'];
+$id = $_GET['id'];
 
-    $sql = "DELETE FROM links WHERE id=$id";
-    $result = $conn->query($sql);
+$sql = "DELETE FROM links WHERE id=$id";
+$result = $conn->query($sql);
 
-    $conn->close();
+$conn->close();
 
-    echo "deleted";
+echo "deleted";
 
-    header("location:show.php");
+header("location:show.php");
 ?>

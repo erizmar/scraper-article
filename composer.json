@@ -1,5 +1,6 @@
 {
     "require": {
-        "serpwow/google-search-results": "^0.2.5"
+        "serpwow/google-search-results": "^0.2.5",
+        "soundasleep/html2text": "^1.1"
     }
 }

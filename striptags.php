@@ -1,46 +1,38 @@
 <?php
-    include "connection.php";
-    require_once "htmlpurifier/library/HTMLPurifier.auto.php";
-    
-    $counter = 1;
+require_once "htmlpurifier/library/HTMLPurifier.auto.php";
 
-    $config = HTMLPurifier_Config::createDefault();
-    $purifier = new HTMLPurifier($config);
+$config = HTMLPurifier_Config::createDefault();
+$purifier = new HTMLPurifier($config);
 
-    $html_path = 'download/html';
-    if (!file_exists($html_path)) {
-        mkdir($html_path, 0777, true);
+$html_path = 'download/html';
+if (!is_dir($html_path)) {
+    die;
+}
+
+$stripped_path = 'download/stripped';
+if (!file_exists($stripped_path)) {
+    mkdir($stripped_path, 0777, true);
+}
+
+$files = scandir($html_path);
+
+foreach ($files as $val) {
+    if ($val != "." && $val != "..") {
+        $file = fopen($html_path.DIRECTORY_SEPARATOR.$val, 'r') or die("Unable to open file!");
+        $html = fread($file,filesize($html_path.DIRECTORY_SEPARATOR.$val));
+        
+        $clean_html = $purifier->purify($html);
+
+        //id for filename
+        $id = preg_replace('/.html/', '', $val);
+
+        $stripped_html = fopen($stripped_path.DIRECTORY_SEPARATOR."$id-stripped.html", "w");
+        fwrite($stripped_html, $clean_html);
+
+        echo "ID: $id stripped<br>";
+
+        fclose($file);
+        fclose($stripped_html);
     }
-
-    $stripped_path = 'download/stripped';
-    if (!file_exists($stripped_path)) {
-        mkdir($stripped_path, 0777, true);
-    }
-
-    $sql = "SELECT id, tgturl FROM links";
-    $result = $conn->query($sql);
-    
-    if ($result->num_rows > 0) {
-        // output data of each row
-        while($row = $result->fetch_assoc()) {
-            $doc = fopen($html_path.DIRECTORY_SEPARATOR."$counter.html", "r") or die("Unable to open file!");
-            $sdoc = fopen($stripped_path.DIRECTORY_SEPARATOR."$counter-stripped.html", "w");
-            
-            $dhtml = fread($doc,filesize($html_path.DIRECTORY_SEPARATOR."$counter.html"));
-            
-            $chtml = $purifier->purify($dhtml);
-
-            fwrite($sdoc, $chtml);
-
-            fclose($doc);
-            fclose($sdoc);
-
-            echo "URL: ".$row["tgturl"]." stripped<br>";
-            
-            $counter++;
-        }
-    } else {
-        echo "nothing to strip";
-    }
-    $conn->close();
+}
 ?>

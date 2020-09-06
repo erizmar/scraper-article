@@ -17,6 +17,27 @@ foreach ($files as $val) {
         $tags = getMetaTags($html);
 
         if (!isset($tags['article:published_time'])) {
+            if (!isset($tags['content_PublishedDate'])) {
+                continue;
+            }
+
+            $pubdate = $tags['content_PublishedDate'];
+            echo "$pubdate<br>";
+
+            // get id
+            $id = preg_replace('/.html/', '', $val);
+
+            // update db
+            $sql = "UPDATE links SET pubdate='$pubdate' WHERE id=$id";
+
+            if ($conn->query($sql) === TRUE) {
+                echo "New record created successfully<br>";
+            } else {
+                echo "Error: " . $sql . "<br>" . $conn->error;
+            }
+
+            fclose($file);
+
             continue;
         }
 
