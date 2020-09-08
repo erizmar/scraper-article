@@ -54,7 +54,7 @@ data_clean = pd.DataFrame.from_dict(data_dict, orient='index')
 data_clean.columns = ['text']
 
 # init count vectorizer using custom stopwords and bigrams
-cv = CountVectorizer(stop_words=list_stopwords, ngram_range=(1, 2))
+cv = CountVectorizer(stop_words=list_stopwords, ngram_range=(1, 3))
 
 data_cv = cv.fit_transform(data_clean.text)
 data_dtm = pd.DataFrame(data_cv.toarray(), columns=cv.get_feature_names())

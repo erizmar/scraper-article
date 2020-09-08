@@ -24,5 +24,5 @@ for x in data_clean.index:
 data_tagged = pd.DataFrame.from_dict(tag_dict, orient='index')
 data_tagged.columns = ['text']
 
-data_tagged.to_pickle('tagged.pkl')
+data_tagged.to_pickle('data_tagged.pkl')
 data_tagged

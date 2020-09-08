@@ -5,12 +5,13 @@
     </head>
     <body>
         <h1>HTML Downloader</h1>
-        <a href="show.php">Show All</a>
-        <a href="serpjson.php">Add From JSON</a>
-        <a href="download.php">Download All</a>
-        <a href="striptags.php">Strip All</a>
+        <a href="show.php">Show All</a> <br><br>
+        <a href="serpjson.php">Add From JSON</a> <br><br>
+        <a href="download.php">Download All</a> <br><br>
+        <a href="getpublishdate.php">Get Date</a> <br><br>
+        <a href="striptags.php">Strip All</a> <br><br>
         <a href="htmltotext.php">Plain All</a> <br><br>
-        <fieldset>
+        <!-- <fieldset>
             <form method="post" action="save.php">
                 <label for="surl">URL: </label>
                 <input type="text" id="surl" name="surl" required>
@@ -23,7 +24,7 @@
                 <textarea id="murl" name="murl" rows="4" cols="50" required></textarea>
                 <button type="submit" value="save">Save</button>
             </form>
-        </fieldset> <br>
+        </fieldset> <br> -->
         <fieldset>
             <form method="post" action="stopwords.php">
                 <label for="stopwords">Stopwords: </label>
