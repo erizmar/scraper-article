@@ -32,12 +32,5 @@
                 <button type="submit" value="save">Save</button>
             </form>
         </fieldset> <br>
-        <fieldset>
-            <form method="post" action="object.php">
-                <label for="object">Tourism Object: </label>
-                <textarea id="object" name="object" rows="4" cols="50" required></textarea>
-                <button type="submit" value="save">Save</button>
-            </form>
-        </fieldset> <br>
     </body>
 </html>

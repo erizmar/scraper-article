@@ -1,8 +1,7 @@
 <?php
 include "connection.php";
 
-$path = 'download/testjson';
-// $path = 'download/json';
+$path = 'download/json';
     if (!is_dir($path)) {
         die;
     }

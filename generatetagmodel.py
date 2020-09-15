@@ -32,11 +32,12 @@ tagger: SequenceTagger = SequenceTagger(hidden_size=256,
 
 # DONT START THE CODE BELOW UNLESS NECESSARY TO CHANGE THE MODEL!
 
+# # 7. start training
+
 # from flair.trainers import ModelTrainer
 
 # trainer: ModelTrainer = ModelTrainer(tagger, corpus)
 
-# # 7. start training
 # trainer.train('resources',
 #               learning_rate=0.1,
 #               mini_batch_size=32,

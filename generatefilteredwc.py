@@ -12,65 +12,33 @@ from wordcloud import WordCloud
 with open('stopwords.pkl', 'rb') as f:
     list_stopwords = pickle.load(f)
 
-# load document term matrix
-data = pd.read_pickle('dtm.pkl')
-data = data.transpose()
+# load object file list to use specific file
+data_to = pd.read_pickle('object_file_list.pkl')
 
-# load tourism object
-tourism_object = ['aiola eatery', 'tugu pahlawan', 'pantai kenjeran', 'arca joko dolog', 'cakcuk cafe', 'delta plaza', 'taman bungkul']
-
-# make tourism object document dictionary
-to_dict = {}
-
-# search the document containing tourism object
-for x in tourism_object:
-    # mark document appearance
-    docf = {}
-
-    # check if tourism object exist in document term matrix
-    if x not in data.index:
-        continue
-
-    # search using dtm
-    for c in data.columns:
-        val = data.at[x, c]
-        if val > 0:
-            docf[c] = 1
-        else:
-            docf[c] = 0
-
-    to_dict[x] = docf
-
-# make dictionary into data frame
-data_to = pd.DataFrame.from_dict(to_dict, orient='index')
-data_to.to_pickle('object_file_list.pkl')
-data_to
-
-# wordcloud
+# init wordcloud
 wc = WordCloud(stopwords=list_stopwords, background_color='white', colormap='Dark2', width=1600, height=800)
 
-wc_list = ['verb', 'noun', 'adj', 'else']
-for y in wc_list:
+# list of filter
+filter_list = ['verb', 'noun', 'adj', 'else']
+
+# create wordcloud for every filter
+for y in filter_list:
     # check directory
     path = 'image/filtered/' + y + '/'
     cpath = os.path.exists(path)
     if cpath == False:
         os.mkdir(path)
 
-    # load cleaned raw string
-    data_clean = pd.read_pickle('filter_' + y + '.pkl')
+    # load filtered raw string
+    data_filtered = pd.read_pickle('filter_' + y + '.pkl')
 
-    for x in tourism_object:
-        # check if tourism object exist in document term matrix
-        if x not in data.index:
-            continue
-
-        # filter docs
+    for x in data_to.index:
+        # combine all document into one
         wc_string = ''
-        for c in data.columns:
+        for c in data_to.columns:
             val = data_to.at[x, c]
             if val > 0:
-                wc_string += ' ' + data_clean.text[c]
+                wc_string += ' ' + data_filtered.text[c]
 
         # generate wordcloud
         wc.generate(wc_string)
@@ -81,6 +49,7 @@ for y in wc_list:
         plt.imshow(wc, interpolation='bilinear')
         plt.axis('off')
         plt.title(x + ' ' + y + ' only')
+
         # export to png
         plt.savefig(path + x + '.png')
         plt.show()

@@ -21,5 +21,5 @@ for x in myresult:
     list_stopwords.update([x[0]])
     print (x[0])
 
-with open('stopwordsdb.pkl', 'wb') as f:
+with open('db_stopwords.pkl', 'wb') as f:
     pickle.dump(list_stopwords, f)

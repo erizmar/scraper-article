@@ -1,13 +1,16 @@
 import pandas as pd
 import pickle
 
+# load tagged raw string
 data_tagged = pd.read_pickle('data_tagged.pkl')
 
+# for storing filtered text
 verb_dict = {}
 noun_dict = {}
 adj_dict = {}
 else_dict = {}
 
+# for every document
 for x in data_tagged.index:
     text = data_tagged.text[x].split()
     verb_string = ''
@@ -15,6 +18,7 @@ for x in data_tagged.index:
     adj_string = ''
     else_string = ''
 
+    # for every word
     for y in text:
         if y == '<VERB>':
             index_val = text.index(y)
@@ -46,6 +50,7 @@ for x in data_tagged.index:
     adj_dict[x] = adj_string
     else_dict[x] = else_string
     
+# change dict to dataframe
 data_filter_verb = pd.DataFrame.from_dict(verb_dict, orient='index')
 data_filter_verb.columns = ['text']
 data_filter_verb.to_pickle('filter_verb.pkl')
@@ -62,6 +67,7 @@ data_filter_else = pd.DataFrame.from_dict(else_dict, orient='index')
 data_filter_else.columns = ['text']
 data_filter_else.to_pickle('filter_else.pkl')
 
+# change list to set to remove duplicate then dump data
 verb_list = []
 for x in data_filter_verb.index:
     text = data_filter_verb.text[x].split()

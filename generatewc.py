@@ -33,7 +33,6 @@ class SimpleGroupedColorFunc(object):
     def __call__(self, word, **kwargs):
         return self.word_to_color.get(word, self.default_color)
 
-
 class GroupedColorFunc(object):
     """Create a color function object which assigns DIFFERENT SHADES of
        specified colors to certain words based on the color to words mapping.
@@ -81,15 +80,11 @@ if cpath == False:
 with open('stopwords.pkl', 'rb') as f:
     list_stopwords = pickle.load(f)
 
-# load document term matrix
-data = pd.read_pickle('dtm.pkl')
-data = data.transpose()
-
 # load cleaned raw string
 data_clean = pd.read_pickle('data_clean.pkl')
 
-# load tourism object
-tourism_object = ['aiola eatery', 'tugu pahlawan', 'pantai kenjeran', 'arca joko dolog', 'cakcuk cafe', 'delta plaza', 'taman bungkul']
+# load object file list to use specific file
+data_to = pd.read_pickle('object_file_list.pkl')
 
 # load filtered word for coloring
 with open('verb_set.pkl', 'rb') as f:
@@ -101,66 +96,36 @@ with open('adj_set.pkl', 'rb') as f:
 
 # prepare the coloring process
 color_to_words = {
-    # words below will be colored with a green single color function
     'red': list(verb_set),
     'green': list(noun_set),
     'blue': list(adj_set)
 }
 
-# Words that are not in any of the color_to_words values
-# will be colored with a grey single color function
+# default color for words that are not in color_to_word
 default_color = 'grey'
 
-# Create a color function with single tone
+# single color tone
 # grouped_color_func = SimpleGroupedColorFunc(color_to_words, default_color)
 
-# Create a color function with multiple tones
+# multiple color tones
 grouped_color_func = GroupedColorFunc(color_to_words, default_color)
 
-# make tourism object document dictionary
-to_dict = {}
-
-# search the document containing tourism object
-for x in tourism_object:
-    # mark document appearance
-    docf = {}
-
-    # check if tourism object exist in document term matrix
-    if x not in data.index:
-        continue
-
-    # search using dtm
-    for c in data.columns:
-        val = data.at[x, c]
-        if val > 0:
-            docf[c] = 1
-        else:
-            docf[c] = 0
-
-    to_dict[x] = docf
-
-# make dictionary into data frame
-data_to = pd.DataFrame.from_dict(to_dict, orient='index')
-data_to.to_pickle('object_file_list.pkl')
-data_to
-
-# wordcloud
+# init wordcloud
 wc = WordCloud(stopwords=list_stopwords, background_color='white', colormap='Dark2', width=1600, height=800)
 
-for x in tourism_object:
-    # check if tourism object exist in document term matrix
-    if x not in data.index:
-        continue
-
-    # filter docs
+# create wordcloud for every tourism object
+for x in data_to.index:
+    # combine all document into one
     wc_string = ''
-    for c in data.columns:
+    for c in data_to.columns:
         val = data_to.at[x, c]
         if val > 0:
             wc_string += ' ' + data_clean.text[c]
 
     # generate wordcloud
     wc.generate(wc_string)
+
+    # recolor wordcloud
     wc.recolor(color_func=grouped_color_func)
 
     print ('wordcloud for ' + x + ' successfully created!')
@@ -169,6 +134,7 @@ for x in tourism_object:
     plt.imshow(wc, interpolation='bilinear')
     plt.axis('off')
     plt.title(x)
+
     # export to png
     plt.savefig(path + x + '.png')
     plt.show()

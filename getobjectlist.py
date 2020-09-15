@@ -17,19 +17,18 @@ myresult = mycursor.fetchall()
 
 object_dict = {}
 
-for x in myresult:
-    alias = x[1]
+for row in myresult:
+    name = row[0].lower()
+    alias = row[1]
     if alias is not None:
-        alias = alias.split(sep=',')
+        alias = alias.lower().split(sep=',')
         alias_dict = {}
         for y in alias:
             index_val = alias.index(y)
             alias_dict[index_val] = y
-        object_dict[x] = alias_dict
+        object_dict[name] = alias_dict
     else:
-        object_dict[x] = None
-         
-    print (x[0])
+        object_dict[name] = None
 
 with open('db_object.pkl', 'wb') as f:
     pickle.dump(object_dict, f)

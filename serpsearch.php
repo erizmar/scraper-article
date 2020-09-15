@@ -13,7 +13,7 @@ $path = 'download/json';
 // create the serpwow object, passing in our API key
 $serpwow = new GoogleSearchResults("8796DFCC11F849F08C8D57E63CA3C83E");
 
-$short_tail = ['wisata hits surabaya', 'wisata instagramable surabaya', 'wisata terbaik surabaya'];
+$short_tail = ['wisata hits surabaya', 'wisata instagramable surabaya', 'wisata terbaik surabaya', 'car free day surabaya'];
 
 foreach ($short_tail as $val) {
     // set up the search parameters
