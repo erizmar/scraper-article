@@ -10,9 +10,9 @@ data_dtm = data_dtm.transpose()
 data_clean = pd.read_pickle('data_clean.pkl')
 
 # load tourism object
-with open('db_object.pkl', 'rb') as f:
-    tourism_object = pickle.load(f)
-# tourism_object = {'aiola eatery': None, 'tugu pahlawan': None,'pantai ria kenjeran': {0: 'pantai kenjeran'}, 'plaza surabaya': {0: 'plasa surabaya', 1: 'delta plaza'}, 'taman bungkul': None}
+# with open('db_object.pkl', 'rb') as f:
+#     tourism_object = pickle.load(f)
+tourism_object = {'aiola eatery': None, 'tugu pahlawan': None, 'pantai ria kenjeran': {0: 'pantai kenjeran'}, 'plaza surabaya': {0: 'plasa surabaya', 1: 'delta plaza'}, 'taman bungkul': None}
 
 # make tourism object document dictionary
 to_dict = {}

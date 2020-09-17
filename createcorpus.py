@@ -1,11 +1,8 @@
 import pandas as pd
-import nltk.corpus
 import re
 import string
 import os, os.path
 import pickle
-
-from nltk.corpus import stopwords
 
 # doc count
 path = 'download/text/'
@@ -17,19 +14,9 @@ count = 1
 # for storing all document
 data_dict = {}
 
-# init stopwords
-list_stopwords = set(stopwords.words('indonesian'))
-
-# add custom stopwords
-list_stopwords.update(['jl', 'rp', 'salah', 'source', 'image', 'credit', 'by', 'surabaya', 'wisata', 'kota', 'jawa', 'timur', 'lokasi', 'amp'])
-
-# with open('stopwordsdb.pkl', 'rb') as f:
-#     db_stopwords = pickle.load(f)
-#     list_stopwords.update(db_stopwords)
-
-# dump list stopwords
-with open('stopwords.pkl', 'wb') as f:
-    pickle.dump(list_stopwords, f)
+# load stopwords
+with open('stopwords.pkl', 'rb') as f:
+    list_stopwords = pickle.load(f)
 
 # adding all docs to dictionary
 while count <= total_doc:

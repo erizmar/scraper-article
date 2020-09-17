@@ -7,3 +7,4 @@ resources
 vendor
 *.csv
 *.pkl
+!data_tagged.pkl

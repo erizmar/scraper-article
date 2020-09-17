@@ -18,8 +18,9 @@ myresult = mycursor.fetchall()
 list_stopwords = set()
 
 for x in myresult:
-    list_stopwords.update([x[0]])
-    print (x[0])
+    word = x[0].lower()
+    list_stopwords.update(word)
+    print (word)
 
 with open('db_stopwords.pkl', 'wb') as f:
     pickle.dump(list_stopwords, f)

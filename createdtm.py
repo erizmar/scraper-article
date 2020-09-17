@@ -18,10 +18,8 @@ data_dtm = pd.DataFrame(data_cv.toarray(), columns=cv.get_feature_names())
 data_dtm.index = data_clean.index
 
 # dump data
-data_dtm.to_csv('data_dtm.csv')
 data_dtm.to_pickle('data_dtm.pkl')
 data_dtm
-
 
 # # TFIDF
 # from sklearn.feature_extraction.text import TfidfVectorizer
