@@ -6,5 +6,4 @@ image
 resources
 vendor
 *.csv
-*.pkl
-!data_tagged.pkl
+data_dtm.pkl
