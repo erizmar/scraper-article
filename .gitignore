@@ -1,9 +1,9 @@
 __pycache__
 archive
 download/*
-!download/text
 image
 resources
 vendor
 *.csv
 data_dtm.pkl
+data_dtm_apr.pkl

@@ -19,7 +19,7 @@ list_stopwords = set()
 
 for x in myresult:
     word = x[0].lower()
-    list_stopwords.update(word)
+    list_stopwords.add(word)
     print (word)
 
 with open('db_stopwords.pkl', 'wb') as f:

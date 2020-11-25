@@ -6,6 +6,8 @@ require "vendor/autoload.php";
 //     die;
 // }
 
+set_time_limit(0);
+
 $stripped_path = 'download/html';
 if (!is_dir($stripped_path)) {
     die;

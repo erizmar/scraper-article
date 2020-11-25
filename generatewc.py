@@ -5,7 +5,6 @@ import string
 import os, os.path
 import pickle
 
-from nltk.corpus import stopwords
 from wordcloud import WordCloud
 from wordcloud import get_single_color_func
 

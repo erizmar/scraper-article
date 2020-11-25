@@ -18,13 +18,18 @@ if ($result->num_rows > 0) {
         //Link to download file
         $url = $row["tgturl"];
         $id = $row["id"];
-        
-        //Get the file
-        $data = file_get_contents($url);
-        echo "ID: $id URL: $url downloaded<br>";
 
         //Save as?
         $filename = "$id.html";
+
+        //check local file
+        if (file_exists($path.DIRECTORY_SEPARATOR.$filename)) {
+            continue;
+        }
+
+        //Get the file
+        $data = file_get_contents($url);
+        echo "ID: $id URL: $url downloaded<br>";
 
         //Save the file
         $fh = fopen($path.DIRECTORY_SEPARATOR.$filename, "w");

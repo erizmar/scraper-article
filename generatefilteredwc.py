@@ -8,6 +8,12 @@ import pickle
 from nltk.corpus import stopwords
 from wordcloud import WordCloud
 
+# check directory
+path = 'image/filtered/'
+cpath = os.path.exists(path)
+if cpath == False:
+    os.mkdir(path)
+
 # load stopwords
 with open('stopwords.pkl', 'rb') as f:
     list_stopwords = pickle.load(f)

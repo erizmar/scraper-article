@@ -20,5 +20,5 @@ for i in data_tagged.index:
         # data_tagged.text[i] = re.sub(' +', ' ', str(data_tagged.text[i]))
         # data_tagged.text[i] = str(data_tagged.text[i]).lstrip()
 
-data_tagged.to_pickle('tag_only.pkl')
+# data_tagged.to_pickle('tag_only.pkl')
 data_tagged
