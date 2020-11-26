@@ -1,0 +1,111 @@
+womantalk
+
+[search-button]
+default-profile-picture
+
+LIHAT PROFIL
+
+Verifikasi email kamu! Klik disini!
+
+Profil 75% lengkap
+NOTIFICATION (  8 )
+PENGATURAN
+KELUAR    KELUAR
+Login
+[search-button] [close-search-button]  [burger-button] [close-burger-button]
+
+- HOT TOPIC
+
+CLOSE
+SEARCH
+---------------------------------------------------------------
+
+POPULAR SEARCH
+
+Login
+[login-facebook-button]
+[login-twitter-button]
+---------------------------------------------------------------
+
+default-profile-picture
+/notification
+
+LIHAT PROFIL
+
+Verifikasi email kamu! Klik disini!
+
+Profil 75% lengkap
+
+warning!
+
+-  Home
+-  Lifehack
+Surabaya North Quay, Tempat Nongkrong Kekinian Di Surabaya
+13 January 2017
+Maria Septia      Sejak dibuka Februari tahun lalu, Surabaya North Quay atau SNQ kian mencuri perhatian wisatawan. Sebuah tempat yang terletak di Terminal Gapura Surya Nusantara, Pelabuhan Tanjung Perak, Surabaya, i ...
+
+[delete lounge]
+Apakah Anda yakin ingin menghapus konten ini?
+Ya
+Tidak
+
+error message
+
+REPORT
+Alasan Anda melapor?
+Mengandung SARA
+Mengandung Pornografi
+Mengandung Hal yang tidak pantas
+Lainnya
+
+REPORT
+error message
+
+Forget password
+Masukkan email yang Anda daftarkan di Womantalk
+
+Send
+error message
+
+Forget password
+kode verifikasi telah dikirim ke email Anda
+
+Kirim
+
+error message
+
+Ganti Kata Sandi
+
+[confirm password]
+
+Kirim
+
+error message
+
+Verify your e-mail
+Masukkan kode verifikasi yang telah dikirimkan ke email Anda
+
+[change email] Change e-mail
+[resend email] Resend code
+
+Verify
+error message
+
+Change e-mail
+
+Change E-mail
+error message
+
+You must login first
+Facebook
+Twitter
+Log in
+Are you new here? Register now!
+error message
+SELAMAT!
+Anda mendapatkan extra Kisses
+CONGRATS!
+
+Klik untuk membuka hadiah
+THANKS!
+[popup image]

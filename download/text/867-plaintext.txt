@@ -1,0 +1,27 @@
+index.php
+
+- mall
+- convex
+
+- shop
+- dine
+- entertain
+- Directory
+
+November 2020
+
+convex.php#upcomingevents
+
+Tweets by @GrandCitySBY
+
+http://www.facebook.com/goldsgymID
+
+http://www.hotel-majapahit.com
+
+http://www.jiexpo.com
+
+https://www.facebook.com/grandcitysurabaya/photos_stream?tab=photos_albums
+
+index.php		store_list.php		cust_service.php		location.php		leasing.php
+Grand City Mall & Convex Surabaya is owned by PT. Hardayawidya Graha. A subsidiary of CCM Group. All rights reserved.
+© 2010 - 2020. Designed and developed by design @ marketing communication division Grand City Mall and Convex Surabaya. Powered by CouchCMS.

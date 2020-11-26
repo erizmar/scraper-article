@@ -1,0 +1,66 @@
+#
+#
+ExplorePlan
+FavoritesListsMapsCreate MapHistory
+RecordingsCompletedStats
+HelpDownload the app
+Sign Up
+Log In
+
+At main logo
+
+Explore
+Plan
+History
+AllTrails
+Help
+Sign Up
+Log In
+
+AllTrails
+[AllTrails]
+Get the App Apple App Store Google Play Store
+
+Explore
+
+-  Countries
+-  Regions
+-  Cities
+-  Parks
+-  Trails
+
+Maps
+
+-  My Maps
+-  Create Map
+-  Print Maps
+-  Route Converter
+
+Company
+
+- About
+- Jobs
+- Fieldnotes Blog
+- Press
+
+Community
+
+-  Support
+-  Members
+-  Give Pro
+
+Stay Connected
+
+-  https://www.facebook.com/AllTrails
+-  https://www.twitter.com/alltrails
+-  https://www.instagram.com/alltrails
+-  https://www.pinterest.com/alltrails
+
+EnglishFrançaisDeutschEspañol
+
+- 2020 AllTrails, LLC All Rights Reserved
+- Privacy Policy
+- Terms of Service
+- Cookie Policy
+
+Proud member [1% For The Planet]

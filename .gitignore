@@ -1,6 +1,7 @@
 __pycache__
 archive
 download/*
+!download/text
 image
 resources
 vendor

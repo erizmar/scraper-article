@@ -1,0 +1,107 @@
+[fw16logoagi.gif]	/international
+[aldo_fw19-septembernh_infosite-left-img_570x1700.gif]
+
+-  Home
+-   Store Finder
+-   Current Position
+
+Find a Store   Search
+
+Store	Distance	Address	Opening Hours
+[1] ALDO 0542-8521792	331.1 Km - View map	Pentacity Mall
+Penta City Mall, Level GF, Shop No. 05. Komp. Balikpapan Superblock Jl. Jenderal Sudirman No.47 Gunung BahagiaDamai
+Balikpapan
+76114
+[2] ALDO 031-5316122	727.8 Km - View map	Tunjungan Plaza 4 Lt.2. No.38-40
+Tunjungan Plaza 4, 2nd Floor Shop No 18. Jalan Jenderal Basuki Rachmat No.8-12
+Surabaya
+60261
+[3] ALDO 031 - 5915146	728.2 Km - View map	Galaxy Mall
+Galaxy Mall, 1st Floor, Shop No 175. Jalan Dharmahusada Indah Timur No.35-37
+Surabaya
+60115
+[4] ALDO 03199148323	731.9 Km - View map	Supermall Pakuwon
+Supermall Pakuwon Upper Ground Level, Unit 77
+Jalan Puncak Indah Lontar No.2
+Surabaya, Jawa Timur
+60123
+[5] ALDO 0274-2924163	864.2 Km - View map	Hartono Mall
+Hartono Mall, Level GF, Shop No G-57. Jl. Ringroad Utara
+Yogyakarta
+55281
+[6] ALDO 0361-4741814	883.6 Km - View map	The Village Seminyak
+The Seminyak Village, Ground Floor Shop No. 13. Jalan Kayu Jati No.8
+Bali
+80361
+[7] ALDO 0361-8465607	887.5 Km - View map	Beachwalk Shopping Center
+Beachwalk Shopping Center Lifestyle Resort, Level 1, Shop No F-10. Jalan Pantai Kuta
+Bali
+80361
+[8] ALDO 022-86012317	973.2 Km - View map	Trans Mall Bandung
+Trans Studio Mall Bandung, Ground Floor Shop No B046-048. Jalan Jendral Gatot Subroto No. 289
+Bandung
+40273
+[9] ALDO 022-82063669	973.7 Km - View map	Paris Van Java
+Paris Van Java, Resort Level, Shop No. B-25. Jl. Sukajadi No. 137-139
+Bandung
+40162
+[10] ALDO 022-20571658	975.9 Km - View map	23 Paskal
+23 Paskal Shopping Center, Level 1 Shop No. 58. Jl. Pasir Kaliki No.25-27
+Bandung
+40181
+[11] ALDO 021-4533382	979.4 Km - View map	Mall Kelapa Gading
+Mall Kelapa Gading 2, Level 1, Shop No. 225-227. Jl. Boulevard Raya, RT.13/RW.18
+Jakarta Utara
+14240
+[12] ALDO 02123581900	988.6 Km - View map	Mall Grand Indonesia
+Mall Grand Indonesia Skybridge Level 2, Unit 2-03A
+Jl. M.H. Thamrin No.1, Menteng, Kec. Menteng
+Kota Jakarta Pusat, Daerah Khusus Ibukota Jakarta
+10310
+[13] ALDO 021-29924055	989.4 Km - View map	Plaza Indonesia
+Plaza Indonesia, Level 2, Shop No. 081-084. Jalan M.H. Thamrin Kav. 28-30, RT.09 / RW.05, Gondangdia, RT.9/RW.5
+Jakarta
+10350
+[14] ALDO 021-29465023	989.6 Km - View map	Kota Kasablanka
+Kota Kasablanka, Level UG, Shop No. 22. Jalan Casablanca Kav. 88, RT.16/RW.5
+Jakarta
+12870
+[15] ALDO 021-30056050	991.4 Km - View map	Kuningan City
+Jl. Prof Dr Satrio Kav 8
+Setiabudi Kuningan South
+12940
+[16] ALDO 021-5785-2774	993.5 Km - View map	Plaza Senayan
+Mall Plaza Senayan, Level 2 Unit 207B-215B
+Jl. Asia Afrika No.8
+Tanah Abang, Central Jakarta City, Jakarta
+10270
+[17] ALDO 02172781277	993.8 Km - View map	Mall Senayan City Level 2
+Mall Senayan City Level 2, unit 69
+Jalan Asia Afrika No. Lot.9, RT.1/RW.3
+Jakarta Pusat
+10270
+[18] ALDO 021-29056770	994.7 Km - View map	Lippo Kemang Village
+Lippo Mall Kemang, Level GF, Shop No. 06. Jl. Pangeran Antasari No.36, RT.11/RW.5
+Jakarta
+12150
+[19] ALDO 021-22582825	996.5 Km - View map	Lippo Mall Puri (St. Morritz)
+Lippo Mall Puri, Level UG, Shop No. 21. Jl. Puri Indah Raya Blok U1, RT.3/RW.2
+Jakarta
+11610
+[20] ALDO 02175921009	997.5 Km - View map	Pondok Indah Mall
+Pondok Indah Mall 1, Ground Floor, Unit 30-31
+Jalan Metro Pondok Indah Kav IV
+Jakarta Selatan, Daerah Khusus Ibukota Jakarta
+12310
+[21] ALDO 021-5465189	1,010.8 Km - View map	Supernal Karawaci LG#19A
+Supermall Karawaci, Level LG Shop No. 19A. Karawaci
+Jakarta
+15811
+[22] ALDO 0431-8890828	1,240 Km - View map	Manado Town Square
+Manado Town Square, Level GF, Shop No. 17-18. Jl. Piere Tendean
+Manado
+95114
+[23] ALDO 061-80510159	1,763.4 Km - View map	Centre Point Medan
+Center point mall, Level GF, Shop No. 04. Jl.jawa no.8, Gg. Buntu, Medan Tim.
+Medan
+20236	Proceed to Payment

@@ -1,0 +1,281 @@
+Menu
+
+- Sarapan Pagi
+- Daging Sapi
+- Ayam
+- Ikan
+- Minuman
+- Makanan Penutup
+- Happy Meal
+- Paket Family
+- McCafe
+- Camilan
+- Lihat Semua Menu
+Logo
+
+-  Menu
+
+Sarapan Pagi Daging Sapi Ayam Ikan Minuman
+Makanan Penutup Happy Meal Paket Family McCafe Camilan Lihat semua menu
+[Location]
+
+PaNas 1
+
+Nikmati menu ayam kami yang lainnya
+
+Pesan Sekarang
+-  Promo
+-  Dunia Anak
+-  Berita Terkini
+-  Makin Kenal
+Makin Sayang
+-  Lokasi
+-  #
+
+[Yellow Element] Pesan Sekarang
+
+-  Menu
+-  Promo
+-  Dunia Anak
+-  Berita Terkini
+-  Makin Kenal Makin Sayang
+-  Lokasi
+
+- Home
+
+Nikmati menu
+pilihan terbaik
+
+Sarapan Pagi
+
+Egg and Cheese Muffin
+Chicken Muffin
+Sausage McMuffin
+Egg McMuffin
+Chicken Muffin with Egg
+Sausage McMuffin with Egg
+Sausage Wrap
+Big Breakfast
+Breakfast Wrap
+Hotcakes 3 pcs
+Hotcakes 2 pcs
+Hashbrown
+Nasi Uduk McD Ayam Suwir
+Bubur Ayam McD
+
+Daging Sapi
+
+Big Mac
+Triple Burger with Cheese
+Double Cheeseburger
+Cheeseburger Deluxe
+Cheeseburger with Egg
+Cheeseburger
+Beef Burger Deluxe
+Beef Burger
+
+Ayam
+
+PaNas Spesial Thai Sweet Chili Sauce
+PaNas 2 Thai Sweet Chili Sauce
+PaNas 2 with Fries Thai Sweet Chili Sauce
+PaNas 1 Thai Sweet Chili Sauce
+Ayam Krispy McDonald's
+Ayam Spicy McDonald's
+PaNas 1
+PaNas 2 with Fries
+PaNas 2 with Rice
+PaNas Spesial
+PaMer 5
+PaMer 7
+Nasi Uduk Komplit McD
+5 pcs Gochujang Chicken McDonald's
+3 pcs Gochujang Chicken McDonald's
+Paket Go Gochujang Chicken McDonald's with Rice
+Paket Go Gochujang Chicken McDonald's with Rice and Egg
+Paket Go Gochujang Chicken McDonald's with Fries
+Honey Garlic Chicken Rice McD
+Rica-rica Chicken Rice McD
+Chicken Burger Deluxe
+Chicken Burger
+McSpicy
+McChicken
+McNuggets
+Chicken Snack Wrap
+Spicy Chicken Bites
+Chicken Fingers
+
+Ikan
+
+Fish Fillet Burger
+Honey Garlic Fish Rice McD
+Rica-rica Fish Rice McD
+
+Minuman
+
+Orange McFloat Blast
+Blackcurrant McFloat
+Raspberry McFloat Blast
+Iced Coffee Sea Salt Caramel
+Iced Coffee Sea Salt Caramel with Jelly
+Iced Coffee Sea Salt Caramel Float
+Iced Coffee Sea Salt Caramel with Jelly Float
+Fruit Tea Lemon
+Coca Cola
+Sprite
+Fanta
+Coca-Cola McFloat
+Fanta McFloat
+Hot Coffee
+Hot Tea
+Iced Coffee
+Iced Coffee Float
+Iced Coffee Jelly
+Iced Coffee Jelly Float
+Iced Milo
+Tehbotol Sosro Tawar
+Mineral Water Prim-a
+Orange Drink
+Tehbotol Sosro
+Tehbotol Sosro Kotak
+Fruit Tea Blackcurrant
+McFreeze Coca-Cola
+Creamy McFreeze Fanta Grape
+McFreeze Apple
+Creamy McFreeze Coca-Cola
+Creamy McFreeze Fanta Grape
+Creamy McFreeze Apple
+
+Makanan Penutup
+
+Mango Coconut McFlurry Oreo
+Mango Coconut McFlurry
+Lychee Waffle Cone
+Apple Pie
+McFlurry feat. Oreo
+McFlurry Choco
+Strawberry Sundae
+Chocolate Sundae
+Ice Cream Cone
+Choco Top
+
+Happy Meal
+
+Happy Meal Egg & Cheese Muffin
+Happy Meal 4 pcs McNuggets
+Happy Meal Chicken Burger
+Happy Meal Ayam McD
+Happy Meal Beef Burger
+
+Paket Family
+
+Family Time Bertiga Happy Meal Ayam McD
+Family Time Breakfast Bertiga Happy Meal Egg & Cheese Muffin
+Family Time Breakfast Berempat Happy Meal Ayam McD
+Family Time Breakfast Berempat Happy Meal Egg & Cheese Muffin
+Family Time Bertiga Happy Meal Beef Burger
+Family Time Berempat Happy Meal Ayam McD
+Family Time Berempat Happy Meal Beef Burger
+Family Time Berempat Happy Meal Ayam McD
+Family Weekend Breakfast Bertiga Happy Meal Ayam McD dan Board Game
+Family Weekend Breakfast Bertiga Happy Meal Egg & Cheese Muffin dan Board Game
+Family Weekend Breakfast Berempat Happy Meal Ayam McD dan Board Game
+Family Weekend Breakfast Berempat Happy Meal Egg & Cheese Muffin dan Board Game
+Family Weekend Bertiga Happy Meal Beef Burger dan Board Game
+Family Weekend Bertiga Happy Meal Ayam McD dan Board Game
+Family Weekend Berempat Happy Meal Beef Burger dan Board Game
+Family Weekend Berempat Happy Meal Ayam McD dan Board Game
+
+McCafe
+
+Tasseo Darjeeling
+Tasseo Lemon Grass
+Tasseo Peach
+Tasseo Java Jasmine
+Tasseo Pure Green
+Espresso
+Macchiato
+Long Black Coffee
+Flat White
+Caffe Latte
+Cappuccino
+Hot Chocolate
+Hazelnut Latte
+Mocha Latte
+Vienna
+Caramel Latte
+Vanilla Latte
+Affogato
+Iced Caffe Latte
+Iced Cappuccino
+Iced Chocolate
+Iced Caramel Latte
+Iced Vanilla Latte
+Iced Hazelnut Latte
+Iced Lychee Tea
+Iced Latte Frappe
+Mocha Frappe
+Choco Frappe
+Hazelnut Frappe
+Mango Peach Frappe
+Mango Frappe
+Cheese Stick
+Butter Croissant
+Banana Muffin
+Choco Chip Muffin
+Cheese Croissant
+Tuna Puff Pastry
+Chicken Curry Puff
+Choco Lover
+Smoked Beef and Cheese Panini
+Chicken Blackpepper Focaccia
+Klepon Cake
+Lemon Cake
+
+Camilan
+
+Cheese Lover McFlavor Fries
+Kentang Goreng Gulai Gurih
+Sweet Corn
+French Fries
+Chicken Fingers, Spicy Chicken Bites, Reg. Fries
+Menu Receh 1+1 Rp18,182
+Menu Receh 1+1 Rp19,545
+
+Dapatkan promo eksklusif hanya di aplikasi McDonald's
+
+Play Store Google Store
+Pelajari Selengkapnya
+
+[Yellow Element] Pesan Sekarang
+
+McDonald's
+
+- Hubungi Kami
+- Tentang Kami
+- Newsroom
+- Karier
+
+- Layanan
+- Sertifikasi & Jaminan Kualitas
+- CSR
+- McD App
+
+Hubungi Kami
+
+- http://www.facebook.com/McDonaldsID
+- https://twitter.com/mcdonalds_id
+- http://instagram.com/mcdonaldsid
+- https://www.youtube.com/user/McDonaldsID
+
+Play Store Google Store
+
+Berlangganan newsletter McD
+
+Daftar
+Harap masukkan email Anda
+
+- Syarat & Ketentuan
+- Kebijakan Privasi
+
+© 2020 McDonald's Indonesia

@@ -1,0 +1,15 @@
+[Loading Extra Holidays]
+
+English
+Let's get you on a vacation:      {{item.name | trustAsHTML}} | {{item.name != item.city ? item.city : ''}}{{item.state ? ', ' + item.state : ''}}    {{item.name}}{{item.name != item.city ? item.city : ''}}{{item.state ? ', ' + item.state : ''}} | {{item.resortCount}} resort{{item.resortCount > 1 ? 's' : ''}}
+Tab Tab
+
+-
+
+-
+
+Wyndham Surabaya City Centre
+
+Jalan Basuki Rahmat No. 67 - 73, Surabaya, East Java Indonesia
+
+Located in the heart of this bustling port city, Wyndham Surabaya is a posh hotel that offers superior, deluxe, junior suites and presidential hotel suites that comfortably sleep 3-6 guests. Suites include a coffe/tea maker and a private balcony/terrace, while some feature a whirlpool tub, private rooms, kitchenette and separate living/dining areas. Amenities include an outdoor pool, hot tub, sauna and spa for all your relaxation needs, five restaurants/bar, concierge and complimentary Wi-Fi.

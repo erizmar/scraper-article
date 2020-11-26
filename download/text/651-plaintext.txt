@@ -1,0 +1,18 @@
+{{data.user.icon}}
+{{data.user.name}} {{data.user.email}}    more_vert   Setting  Logout     {{action.icon}}
+
+{{action.name}}
+
+{{action.icon}}
+
+{{action.name}}
+
+{{action.sub_expand ? 'arrow_drop_down' : 'arrow_drop_up'}}
+
+{{sub_act.name}}
+
+menu
+
+{{pagetitle}}
+
+close   search  search  {{toolbar_menu.title}}    more_vert   Setting  Logout

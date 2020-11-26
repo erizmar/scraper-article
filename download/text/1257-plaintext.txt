@@ -1,0 +1,287 @@
+Site Logo
+
+https://correcto.id/beranda/delivery/header        -
+
+Site Logo
+
+- Home
+- Sticky
+- News
+- Entertainment
+- Olahraga
+- Tekno
+- Viral
+- Kisahku
+- Lifestyle
+- Daerah
+- Foto
+- Infografis
+- Komunitas
+
+- Home
+- Sticky
+- News
+- Entertainment
+- Olahraga
+- Tekno
+- Viral
+- Kisahku
+- Lifestyle
+- Daerah
+- Foto
+- Infografis
+- Komunitas
+
+-
+
+-
+
+Lifestyle
+
+- 4 Destinasi Wisata Hits di Surabaya, yang Dapat Memanjakan Mata
+
+Breaking News
+
+-
+
+Entertainment Video Syur Mirip Jessica Iskandar atau Jedar Viral setelah Geger Video Gisel
+
+-
+
+News Kominfo Takedown Video Syur Mirip Gisel, Penyebar Bisa Kena UU ITE
+
+-
+
+News Sengketa Lahan, Anggota TNI Diancam Warga Dibacok dengan Golok
+
+-
+
+News Ucapkan Selamat pada Joe Biden, Jokowi Dorong Kerjasama Indonesia-AS Bidang Ekonomi
+
+-
+
+Entertainment Setelah Video Syur Mirip Dirinya Trending, Gini Keadaan Gisel Sekarang
+
+-
+
+Viral Fakta Dibalik Balita Ditendang oleh Penjaga Toko
+
+-
+
+News Alasan Orang Kepo Sekali dengan Pilpres Amerika Serikat Sampai Menjadi Trending
+
+-
+
+Entertainment dr Tirta Bongkar Sosok Adam Deni yang Siap Ungkap Pelapor Jerinx dan Anji
+
+-
+
+News Imunisasi Menjadi Kunci dan Rem untuk Menekan Laju Virus Covid-19
+
+-
+
+News Laporkan SMS Spam yang Mengganggu ke Kominfo, Ini Cara Lengkapnya
+
+Foto
+
+Patung Ikon Surabaya (Foto:Dok.Instagram/surabaya)
+
+4 Destinasi Wisata Hits di Surabaya, yang Dapat Memanjakan Mata
+
+By Yuli Nopiyanti
+September 18, 2020
+0 Comments
+
+A PHP Error was encountered
+
+Severity: Notice
+
+Message: Undefined index: HTTP_USER_AGENT
+
+Filename: news/detailnews.php
+
+Line Number: 159
+
+Backtrace:
+
+File: /home/kuyoudev/public_html/correcto.id/application/views/news/detailnews.php
+Line: 159
+Function: _error_handler
+
+File: /home/kuyoudev/public_html/correcto.id/application/views/news/detailnews.php
+Line: 162
+Function: isMobile
+
+File: /home/kuyoudev/public_html/correcto.id/application/controllers/Beranda.php
+Line: 173
+Function: view
+
+File: /home/kuyoudev/public_html/correcto.id/index.php
+Line: 315
+Function: require_once
+
+Sebagai kota besar, Surabaya memiliki segudang tempat wisata yang menarik untuk didatangi loh. Kota Surabaya ini juga cocok banget dikunjungi bersama keluarga, teman ataupun solo treveling.
+
+Berikut destinasi wisata hits di Surabaya, yang wajib kamu kunjungi saat liburan:
+
+1. Kenjeran Park
+
+Sebuah kawasan wisata yang dahulu sangat kumuh dan sangat tidak layak digunakan Karena, kawasan Kenjeran yang dikenal sepi dan menurut berita yang telah beredar, pernah ada korban pembunuhan. Kalau siang, kawasan ini dibuat untuk pacaran anak-anak muda. kini telah menjadi tempat wisata hits yang wajib banget kamu kunjungi.
+
+Sekarang, semua tampilan itu telah berubah. Kenjeran Park yang sekarang bukanlah kenjeran park yang dahulu.
+
+Kawasan ini lebih tertata rapi dan lebih indah. Bahkan kedepannya, Kenjeran Park akan dijadikan sebagai Universal Studionya Indonesia loh.
+
+2. Patung Budha Empat Wajah
+
+Patung Budha Empat Wajah atau Four Faces Buddha adalah patung Budha yang terletak di salah satu sudut Pantai Ria Kenjeran yang terkenal. Pantai di kota Surabaya ini juga terkenal untuk produk perikanan dan tempat berkumpulnya pemudi pemuda Surabaya.
+
+Tempat ini cocok banget nih untuk kumpul-kumpul bersama keluarga dan teman, selain melihat patung Budha, kalian juga bisa bermain di pantai Kenjeran.
+
+3. Kampung Warna-Warni Kenjeran
+
+Para wisatawan mungkin sekarang banyak yang mencari tempat wisata yang tempatnya cocok untuk foto-foto. Nah, salah satu tempat wisata di Surabaya ini sangat cocok banget nih untuk mempercantik feeds Instagram.
+
+Kampung warna-warni kenjeran, adalah sebuah perkampungan yang dibuat warna-warni dengan menghias serta mewarnai rumah-rumah warganya.
+
+Kampung warna-warni ini berbeda dengan yang di malang. Untuk akses masuk ke kampung warna-warni ini kalian hanya perlu membayar Rp 2000 saja. Wah murah banget ya, selain itu di sini juga menjual berbagai oleh-oleh khas Surabaya.
+
+4. Hutan Bambu Keputih
+
+Tempat wisata ini sangat rekomendasi banget nih untuk kalian yang hobi hunting foto. Hutan bambu ini adalah sebuah hutan buatan yang sengaja dibuat untuk kepentingan wisata.
+
+Hutan bambu ini sangat indah dan bisa dikatakan mirip dengan hutan bambu sagano di Jepang. Lokasi ini juga dekat dengan Taman Harmoni Surabaya yang terdapat banyak bunga sakura.
+
+Hutan Bambu ini juga ada beberapa wahana permainan seperti ayunan, perosotan dan sejenisnya loh.
+
+Tag :
+
+Destinasi wisata SurabayaWisata SurabayaHutan Bambu KeputihKenjeran ParkPatung Budha Empat WajahWisata Hits Surabayajalan jalan surabayawisata ke surabaya
+
+Artikel Terkait :
+
+- Biodata dan Profil Terlengkap Dylan Sada, Model Asal Indonesia yang Meninggal di New York
+
+- Fakta Paling Baru Meninggalnya Dylan Sada, Sempat Ingin Bunuh Diri
+
+- Anya Geraldine Ancam Penyebar Foto Syur Mirip Dirinya
+
+- Video Syur Mirip Dirinya Beredar di Dunia Maya, Ini Klarifikasi Anya Geraldine
+
+Share to:
+
+- http://www.facebook.com/sharer.php?u=https://correcto.id/beranda/read/35240
+- https://twitter.com/share?url=https://correcto.id/beranda/read/35240
+- https://www.linkedin.com/shareArticle?mini=true&url=https://correcto.id/beranda/read/35240
+
+A PHP Error was encountered
+
+Severity: Notice
+
+Message: Undefined index: HTTP_USER_AGENT
+
+Filename: news/detailnews.php
+
+Line Number: 159
+
+Backtrace:
+
+File: /home/kuyoudev/public_html/correcto.id/application/views/news/detailnews.php
+Line: 159
+Function: _error_handler
+
+File: /home/kuyoudev/public_html/correcto.id/application/views/news/detailnews.php
+Line: 212
+Function: isMobile
+
+File: /home/kuyoudev/public_html/correcto.id/application/controllers/Beranda.php
+Line: 173
+Function: view
+
+File: /home/kuyoudev/public_html/correcto.id/index.php
+Line: 315
+Function: require_once
+
+- https://api.whatsapp.com/send?text=4 Destinasi Wisata Hits di Surabaya, yang Dapat Memanjakan Mata  https://correcto.id/beranda/read/35240
+
+Please enable JavaScript to view the comments powered by Disqus.
+
+[correcto.id]
+415402
+Total Kasus
+345566
+Total Sembuh
+14044
+Total Meninggal
+source : kawalcovid19.id
+
+Headline
+
+-   Biodata dan Profil Terlengkap Dylan Sada, Model Asal Indonesia yang Meninggal di New York
+
+Biodata dan Profil Terlengkap Dylan Sada, Model Asal Indonesia yang Meninggal di New York
+
+November 09, 2020 16:36:04 by Ahmad Diponegoro
+
+-   Biografi dan Profil Lengkap Dylan Sada, Model Hot Indonesia yang Meninggal di Amerika
+
+Biografi dan Profil Lengkap Dylan Sada, Model Hot Indonesia yang Meninggal di Amerika
+
+November 09, 2020 16:27:53 by Dedi Sutiadi
+
+-   Fakta Paling Baru Meninggalnya Dylan Sada, Sempat Ingin Bunuh Diri
+
+Fakta Paling Baru Meninggalnya Dylan Sada, Sempat Ingin Bunuh Diri
+
+November 09, 2020 16:12:29 by Ahmad Diponegoro
+
+-   Biografi dan Profil Lengkap Daryono, Eks Kiper Persija yang Meninggal Dunia
+
+Biografi dan Profil Lengkap Daryono, Eks Kiper Persija yang Meninggal Dunia
+
+November 09, 2020 15:48:17 by Ahmad Diponegoro
+
+-   Fakta-fakta Meninggalnya Daryono, Kiper Eks Persija yang Juga Tentara Angkatan Laut
+
+Fakta-fakta Meninggalnya Daryono, Kiper Eks Persija yang Juga Tentara Angkatan Laut
+
+November 09, 2020 15:21:32 by Ahmad Diponegoro
+
+-   Anya Geraldine Ancam Penyebar Foto Syur Mirip Dirinya
+
+Anya Geraldine Ancam Penyebar Foto Syur Mirip Dirinya
+
+November 09, 2020 15:02:28 by Dedi Sutiadi
+
+-   Video Syur Mirip Dirinya Beredar di Dunia Maya, Ini Klarifikasi Anya Geraldine
+
+Video Syur Mirip Dirinya Beredar di Dunia Maya, Ini Klarifikasi Anya Geraldine
+
+November 09, 2020 14:59:47 by Ahmad Diponegoro
+
+-   Dylan Sada Model dan Fotografer Asal Indonesia Meninggal Dunia, Ini Pesan Terakhirnya
+
+Dylan Sada Model dan Fotografer Asal Indonesia Meninggal Dunia, Ini Pesan Terakhirnya
+
+November 09, 2020 14:41:58 by Ahmad Diponegoro
+
+-   Soal Vaksin Corona di RI, Harus Melalui Proses Panjang hingga Hanya Bertahan 7 Bulan
+
+Soal Vaksin Corona di RI, Harus Melalui Proses Panjang hingga Hanya Bertahan 7 Bulan
+
+November 09, 2020 14:16:02 by Ahmad Diponegoro
+
+-   Foto Syur Mirip Anya Geraldine atau Anya Viral setelah Geger Gisel dan Jedar
+
+Foto Syur Mirip Anya Geraldine atau Anya Viral setelah Geger Gisel dan Jedar
+
+November 09, 2020 12:49:40 by Dedi Sutiadi
+
+About Us
+Pedoman Media Siber
+Kebijakan Privasi
+Redaksi
+
+© 2020, Copyrights Correcto. All Rights Reserved
+
+Close

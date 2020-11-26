@@ -1,0 +1,635 @@
+Menu
+
+-  [trackalytics] TRACKALYTICS
+-  Facebook
+
+-  Find a Fanpage:
+
+- Popular Statistics
+
+- The Most Liked NFL Teams
+- The Most Liked NBA Teams
+- The Most Liked MLB Teams
+
+- Today Statistics
+
+- Todays Most Liked Facebook Fanpages
+- Todays Most Talked About Facebook Fanpages
+
+- All-time Statistics
+
+- The Most Liked Pages
+- The Most Talked About Pages
+- The Most Checked In Pages
+- The Most Liked by Category
+
+- Actor
+- Actor/director
+- Advertising Agency
+- Airport
+- Album
+- App page
+- Art
+- Artist
+- Arts & Entertainment
+- Arts & Humanities Website
+- Arts/entertainment/nightlife
+- Athlete
+- Attractions/things to do
+- Author
+- Automobiles and parts
+- Automotive
+- Baby Goods/Kids Goods
+- Band
+- Bank/financial institution
+- Blogger
+- Brand
+- Broadcasting & Media Production Company
+- Cars
+- Cause
+- Clothing
+- Clothing (Brand)
+- Clothing Store
+- College & University
+- Comedian
+- Community
+- Community organization
+- Company
+- Computer Company
+- Computers/internet website
+- Computers/technology
+- Consulting Agency
+- Consulting/business services
+- Education
+- Education website
+- Electronics
+- Entertainer
+- Entertainment website
+- Entrepreneur
+- Event planning/event services
+- Fictional character
+- Finance Company
+- Financial Service
+- Food & Beverage Company
+- Food/beverages
+- Games/toys
+- Government official
+- Government organization
+- Gym/Physical Fitness Center
+- Health/beauty
+- Health/medical/pharmaceuticals
+- Health/wellness website
+- Home decor
+- Hotel
+- Hotel Resort
+- Household supplies
+- Interest
+- Internet Company
+- Internet/software
+- Jewelry/watches
+- Journalist
+- Just For Fun
+- Kitchen/cooking
+- Landmark
+- Local business
+- Local/travel website
+- Magazine
+- Media
+- Media/News Company
+- Media/news/publishing
+- Medical & Health
+- Movie
+- Music
+- Musician
+- Musician/band
+- News & Media Website
+- News/media website
+- Newspaper
+- Non-Governmental Organization (NGO)
+- Non-profit organization
+- Nonprofit Organization
+- Organization
+- Other
+- Outdoor & Sporting Goods Company
+- Outdoor gear/sporting goods
+- Performance & Event Venue
+- Performing Arts
+- Personal blog
+- Personal website
+- Pet supplies
+- Photographer
+- Political organization
+- Political party
+- Politician
+- Product/service
+- Professional services
+- Professional sports team
+- Public & Government Service
+- Public figure
+- Radio station
+- Real estate
+- Record label
+- Recreation & Sports Website
+- Recreation/sports website
+- Reference website
+- Restaurant/cafe
+- Retail and consumer merchandise
+- Retail Company
+- School sports team
+- Science website
+- Shopping & Retail
+- Shopping/retail
+- Small Business
+- Society & Culture Website
+- Society/culture website
+- Software
+- Sports
+- Sports & Recreation
+- Sports Club
+- Sports event
+- Sports league
+- Sports team
+- Stadium, Arena & Sports Venue
+- Teacher
+- Telecommunication
+- Telecommunication Company
+- Tourist Information Center
+- Transport/freight
+- Travel Company
+- Travel/leisure
+- Tv channel
+- Tv network
+- Tv show
+- University
+- Video game
+- Website
+
+- The Most Talked About by Category
+
+- Actor
+- Actor/director
+- Advertising Agency
+- Airport
+- Album
+- App page
+- Art
+- Artist
+- Arts & Entertainment
+- Arts & Humanities Website
+- Arts/entertainment/nightlife
+- Athlete
+- Attractions/things to do
+- Author
+- Automobiles and parts
+- Automotive
+- Baby Goods/Kids Goods
+- Band
+- Bank/financial institution
+- Blogger
+- Brand
+- Broadcasting & Media Production Company
+- Cars
+- Cause
+- Clothing
+- Clothing (Brand)
+- Clothing Store
+- College & University
+- Comedian
+- Community
+- Community organization
+- Company
+- Computer Company
+- Computers/internet website
+- Computers/technology
+- Consulting Agency
+- Consulting/business services
+- Education
+- Education website
+- Electronics
+- Entertainer
+- Entertainment website
+- Entrepreneur
+- Event planning/event services
+- Fictional character
+- Finance Company
+- Financial Service
+- Food & Beverage Company
+- Food/beverages
+- Games/toys
+- Government official
+- Government organization
+- Gym/Physical Fitness Center
+- Health/beauty
+- Health/medical/pharmaceuticals
+- Health/wellness website
+- Home decor
+- Hotel
+- Hotel Resort
+- Household supplies
+- Interest
+- Internet Company
+- Internet/software
+- Jewelry/watches
+- Journalist
+- Just For Fun
+- Kitchen/cooking
+- Landmark
+- Local business
+- Local/travel website
+- Magazine
+- Media
+- Media/News Company
+- Media/news/publishing
+- Medical & Health
+- Movie
+- Music
+- Musician
+- Musician/band
+- News & Media Website
+- News/media website
+- Newspaper
+- Non-Governmental Organization (NGO)
+- Non-profit organization
+- Nonprofit Organization
+- Organization
+- Other
+- Outdoor & Sporting Goods Company
+- Outdoor gear/sporting goods
+- Performance & Event Venue
+- Performing Arts
+- Personal blog
+- Personal website
+- Pet supplies
+- Photographer
+- Political organization
+- Political party
+- Politician
+- Product/service
+- Professional services
+- Professional sports team
+- Public & Government Service
+- Public figure
+- Radio station
+- Real estate
+- Record label
+- Recreation & Sports Website
+- Recreation/sports website
+- Reference website
+- Restaurant/cafe
+- Retail and consumer merchandise
+- Retail Company
+- School sports team
+- Science website
+- Shopping & Retail
+- Shopping/retail
+- Small Business
+- Society & Culture Website
+- Society/culture website
+- Software
+- Sports
+- Sports & Recreation
+- Sports Club
+- Sports event
+- Sports league
+- Sports team
+- Stadium, Arena & Sports Venue
+- Teacher
+- Telecommunication
+- Telecommunication Company
+- Tourist Information Center
+- Transport/freight
+- Travel Company
+- Travel/leisure
+- Tv channel
+- Tv network
+- Tv show
+- University
+- Video game
+- Website
+
+-  Instagram
+
+-  Find a Profile:
+
+- Today Statistics
+
+- Todays Most Followed Instagram Profiles
+- Todays Most Following Instagram Profiles
+- Todays Most Posting Instagram Profiles
+- Todays Most Influencing Instagram Profiles
+
+- All-time Statistics
+
+- The Most Followed Instagram Profiles
+- The Most Following Instagram Profiles
+- The Most Posting Instagram Profiles
+- The Most Influencing Instagram Profiles
+- The Most Followers by Category
+
+- Auto Dealers
+- Business & Utility Services
+- Content & Apps
+- Creators & Celebrities
+- Entities
+- Food & Personal Goods
+- General Interest
+- Geography
+- Government Agencies
+- Grocery & Convenience Stores
+- Home & Auto
+- Home Goods Stores
+- Home Services
+- Lifestyle Services
+- Local Events
+- Non-Profits & Religious Organizations
+- Personal Goods & General Merchandise Stores
+- Professional Services
+- Publishers
+- Restaurants
+- Transportation & Accomodation Services
+
+- The Most Following by Category
+
+- Auto Dealers
+- Business & Utility Services
+- Content & Apps
+- Creators & Celebrities
+- Entities
+- Food & Personal Goods
+- General Interest
+- Geography
+- Government Agencies
+- Grocery & Convenience Stores
+- Home & Auto
+- Home Goods Stores
+- Home Services
+- Lifestyle Services
+- Local Events
+- Non-Profits & Religious Organizations
+- Personal Goods & General Merchandise Stores
+- Professional Services
+- Publishers
+- Restaurants
+- Transportation & Accomodation Services
+
+- The Most Posts by Category
+
+- Auto Dealers
+- Business & Utility Services
+- Content & Apps
+- Creators & Celebrities
+- Entities
+- Food & Personal Goods
+- General Interest
+- Geography
+- Government Agencies
+- Grocery & Convenience Stores
+- Home & Auto
+- Home Goods Stores
+- Home Services
+- Lifestyle Services
+- Local Events
+- Non-Profits & Religious Organizations
+- Personal Goods & General Merchandise Stores
+- Professional Services
+- Publishers
+- Restaurants
+- Transportation & Accomodation Services
+
+- The Most Influencing by Category
+
+- Auto Dealers
+- Business & Utility Services
+- Content & Apps
+- Creators & Celebrities
+- Entities
+- Food & Personal Goods
+- General Interest
+- Geography
+- Government Agencies
+- Grocery & Convenience Stores
+- Home & Auto
+- Home Goods Stores
+- Home Services
+- Lifestyle Services
+- Local Events
+- Non-Profits & Religious Organizations
+- Personal Goods & General Merchandise Stores
+- Professional Services
+- Publishers
+- Restaurants
+- Transportation & Accomodation Services
+
+-  Pinterest
+
+-  Find a Profile:
+
+- Today Statistics
+
+-  Todays Most Followed Pinterest Profiles
+-  Todays Most Following Pinterest Profiles
+-  Todays Most Pinning Pinterest Profiles
+-  Todays Most Boards Pinterest Profiles
+
+- All-time Statistics
+
+-  Pinterest Profiles Followed The Most
+-  Pinterest Profiles Following The Most
+-  Pinterest Profiles With The Most Pins
+-  Pinterest Profiles With The Most Boards
+
+-  Twitch
+
+-  Find a Channel:
+
+- Today Statistics
+
+- Todays Most Followed Twitch Channels
+- Todays Most Viewed Twitch Channels
+
+- All-time Statistics
+
+- The Most Followed Twitch Channels
+- The Most Viewed Twitch Channels
+
+-  Twitter
+
+-  Find a Profile:
+
+- Today Statistics
+
+- Todays Most Followed Twitter Profiles
+- Todays Most Following Twitter Profiles
+
+- All-time Statistics
+
+- The Most Followed Twitter Profiles
+- The Most Following Twitter Profiles
+- The Most Tweeting Twitter Profiles
+
+-  Youtube
+
+-  Find a Channel:
+
+- Today Statistics
+
+- Todays Most Subscribed Youtube Users
+- Todays Most Viewed Youtube Users
+
+- All-time Statistics
+
+- The Most Subscribed Youtube Users
+- The Most Viewed Youtube Users
+- The Most Commented Youtube Users
+- The Most Videos Youtube Users
+
+-  Website
+
+-  Find a Website:
+
+- All-time Statistics
+
+- The Most Visited Websites
+
+-  Compare
+
+[SURABAYA] Exploresurabaya
+
+https://instagram.com/p/B_mFsf_HOOE/
+
+https://instagram.com/p/B_guWVZHiPg/ https://instagram.com/p/B_eXDROHU1k/ https://instagram.com/p/B_Zess4H9Y0/ https://instagram.com/p/B_XfEinnAab/ https://instagram.com/p/B_WsEmkn3UF/ https://instagram.com/p/B_T02SpHUP7/ https://instagram.com/p/B_Rwl-Xni2o/ https://instagram.com/p/B_PGTtMHRcQ/ https://instagram.com/p/B_FJ4aiHZNG/
+
+Instagram Followers Followers Widget
+
+Instagram Following Following Widget
+
+Instagram Posts Posts Widget
+
+Instagram Influence Influence Widget
+
+Summary
+
+SURABAYA's Instagram Profile Summary Source: Trackalytics
+id	Date	Followers - (change)	Following - (change)	Posts - (change)	Influence - (change)
+
+[SURABAYA] SURABAYA
+| Instagram Profile
+
+-   Average Influence: %
+-   Influence today:  %
+-   Followers total: 0
+-   Followers today:  0
+-   Following total: 0
+-   Following today:  0
+-   Posts total: 0
+-   Posts today:  0
+-   Page views: 391
+-   Category: Publishers
+-   Last Updated: November 8,2020
+-   Time tracked: 505 Days
+
+#exploresurabaya Always Something New to Discover, Taste & Experience - City of Heroes
+
+| Share | Share | Tweet | Share | Pin it
+
+Find a Instagram Profile
+
+Today Statistics
+
+-  Todays Most Followed Instagram Profiles
+-  Todays Most Following Instagram Profiles
+-  Todays Most Posting Instagram Profiles
+-  Todays Most Influencing Instagram Profiles
+
+All-time Statistics
+
+-  The Most Followed Instagram Profiles
+-  The Most Following Instagram Profiles
+-  The Most Posting Instagram Profiles
+-  The Most Influencing Instagram Profiles
+
+The Most Followers
+
+-  Non-Profits & Religious Organizations
+-  Restaurants
+-  Lifestyle Services
+-  Entities
+-  Auto Dealers
+-  Local Events
+-  Food & Personal Goods
+-  Home Goods Stores
+
+The Most Following
+
+-  Geography
+-  Food & Personal Goods
+-  Home & Auto
+-  Publishers
+-  Home Goods Stores
+-  Grocery & Convenience Stores
+-  General Interest
+-  Auto Dealers
+
+The Most Posts
+
+-  Local Events
+-  Transportation & Accomodation Services
+-  Auto Dealers
+-  Publishers
+-  Home Goods Stores
+-  Personal Goods & General Merchandise Stores
+-  Business & Utility Services
+-  Government Agencies
+
+The Most Influence
+
+-  Geography
+-  General Interest
+-  Personal Goods & General Merchandise Stores
+-  Content & Apps
+-  Auto Dealers
+-  Home & Auto
+-  Government Agencies
+-  Business & Utility Services
+
+Recently Added
+
+-  Luiz Felipe Pond
+-  T Y T Y
+-  Griselda Siciliani
+-  RIFKA
+-  - STANLEY
+-  g
+-  Casey Frey
+-  Nadine Al Rassi
+-  Mia Kang
+-  DMAS
+-  Pauliane
+-  reitchuk
+
+Trackalytics
+
+-  Trackalytics is the leading provider of
+Social Media Statistics / Analytics and
+Website Statistics / Analytics.
+
+Contact Us
+
+-  Send us an email!
+-  Find us on Twitter!
+
+Recently Tracked
+
+-  Linkin Park
+-  Ellen DeGeneres
+-  bhadbhabie
+-  Natasha Wilona
+-  Simply Stacie
+-  MineskiTV
+-  gotyemusic
+-  franchiseindia.com
+
+Copyright © 2013-2020 Trackalytics.com. All rights reserved.
+
+-  Privacy Policy
+-  Terms Of Service
