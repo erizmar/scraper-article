@@ -9,10 +9,10 @@
         <a href="showstopwords.php">Show Stopwords</a> <br><br>
         <a href="serpjson.php">Add From JSON</a> <br><br>
         <a href="download.php">Download All</a> <br><br>
-        <a href="getpublishdate.php">Get Date</a> <br><br>
-        <a href="striptags.php">Strip All</a> <br><br>
+        <!-- <a href="getpublishdate.php">Get Date</a> <br><br>
+        <a href="striptags.php">Strip All</a> <br><br> -->
         <a href="htmltotext.php">Plain All</a> <br><br>
-        <a href="/pagedownload/image/">Image</a> <br><br>
+        <!-- <a href="/pagedownload/image/">Image</a> <br><br> -->
         <!-- <fieldset>
             <form method="post" action="save.php">
                 <label for="surl">URL: </label>
@@ -34,8 +34,8 @@
                 <button type="submit" value="save">Save</button>
             </form>
         </fieldset> <br>
-        <form name="update" method="post" action="execwc.php">
+        <!-- <form name="update" method="post" action="execwc.php">
             <button name = "update" type="submit">Update Wordcloud</button>
-        </form>
+        </form> -->
     </body>
 </html>

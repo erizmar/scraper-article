@@ -14,28 +14,23 @@ count = 1
 # for storing all document
 data_dict = {}
 
-# load stopwords
-with open('stopwords.pkl', 'rb') as f:
-    list_stopwords = pickle.load(f)
-
 # load tourism object
 with open('list_to.pkl', 'rb') as f:
     list_to = pickle.load(f)
 
 # adding all docs to dictionary
 while count <= total_doc:
-    print ('opening doc ' + str(count))
+    # print ('opening doc ' + str(count))
     with open (path+str(count)+"-plaintext.txt", "r", errors="ignore") as myfile:
         text = myfile.read()
 
     # cleaning the file
-    text = text.lower()
-    text = re.sub('\[.*?\]', '', text)
+    text = re.sub('\[.*?\]', ' ', text)
+    text = re.sub('\n', ' ', text)
     text = re.sub('[%s]' % re.escape(string.punctuation), '', text)
     text = re.sub('\d', '', text)
-    # text = re.sub('[‘’“”…ƒâãšÿž€¢¦œ²³º¼¾]', '', text)
     text = re.sub('[^a-zA-Z ]+', '', text)
-    text = re.sub('\n', '', text)
+    text = text.lower()
 
     for y in list_to:
         ysub = re.sub(' ', '_', y)

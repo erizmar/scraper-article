@@ -1,5 +1,6 @@
 import pandas as pd
 import pickle
+import re
 
 # load document term matrix
 data_dtm = pd.read_pickle('data_dtm.pkl')
@@ -18,6 +19,9 @@ tourism_object = {'aiola eatery': None, 'tugu pahlawan': None, 'pantai ria kenje
 to_dict = {}
 
 for x in tourism_object:
+    # substitute space
+    x = re.sub(' ', '_', x)
+
     # for storing document appearance
     docf = {}
 

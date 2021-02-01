@@ -83,7 +83,9 @@ with open('stopwords.pkl', 'rb') as f:
 data_clean = pd.read_pickle('data_clean.pkl')
 
 # load object file list to use specific file
-data_to = pd.read_pickle('object_file_list.pkl')
+# data_to = pd.read_pickle('object_file_list.pkl')
+data_to = pd.read_pickle('data_dtm_obj_only.pkl')
+data_to = data_to.T
 
 # load filtered word for coloring
 with open('verb_set.pkl', 'rb') as f:

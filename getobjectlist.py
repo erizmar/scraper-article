@@ -16,6 +16,7 @@ mycursor.execute("SELECT name, alias FROM tourism_object")
 myresult = mycursor.fetchall()
 
 object_dict = {}
+object_list = list()
 
 for row in myresult:
     name = row[0].lower()
@@ -26,9 +27,13 @@ for row in myresult:
         for y in alias:
             index_val = alias.index(y)
             alias_dict[index_val] = y
+            object_list.append(y)
         object_dict[name] = alias_dict
     else:
         object_dict[name] = None
+        object_list.append(name)
 
 with open('db_object.pkl', 'wb') as f:
     pickle.dump(object_dict, f)
+with open('list_to.pkl', 'wb') as f:
+    pickle.dump(object_list, f)

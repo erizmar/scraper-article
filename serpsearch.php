@@ -5,17 +5,6 @@ require "vendor/autoload.php";
 // php timeout
 set_time_limit(0);
 
-// max result for google
-$google_max_result = 100;
-
-$path = 'download/json';
-    if (!file_exists($path)) {
-        mkdir($path, 0777, true);
-    }
-
-// create the serpwow object, passing in our API key
-$serpwow = new GoogleSearchResults("8796DFCC11F849F08C8D57E63CA3C83E");
-
 // $short_tail = ['wisata hits surabaya', 'wisata instagramable surabaya', 'wisata terbaik surabaya', 'car free day surabaya'];
 
 $short_tail = ['Car free day surabaya',
@@ -40,6 +29,16 @@ $short_tail = ['Car free day surabaya',
             'Wisata Terbaik di Surabaya'
             ];
 
+// max result for google
+$google_max_result = 100;
+
+$path = 'download/json';
+    if (!file_exists($path)) {
+        mkdir($path, 0777, true);
+    }
+
+// create the serpwow object, passing in our API key
+$serpwow = new GoogleSearchResults("8796DFCC11F849F08C8D57E63CA3C83E");
 
 foreach ($short_tail as $val) {
     // set up the search parameters

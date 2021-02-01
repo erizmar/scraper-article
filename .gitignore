@@ -6,5 +6,6 @@ image
 resources
 vendor
 *.csv
+*.ipynb
 data_dtm.pkl
 data_dtm_apr.pkl
